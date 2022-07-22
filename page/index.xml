@@ -1,23 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Mind Bender's Blog</title><link>https://mind-benders.github.io/page/</link><description>Recent content in Pages on Mind Bender's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mind-benders.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Archives</title><link>https://mind-benders.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/archives/</guid><description/></item><item><title>About</title><link>https://mind-benders.github.io/about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/about/</guid><description>&lt;p>Written in Go, Hugo is an open source static site generator available under the &lt;a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE" target="_blank" rel="noopener"
->Apache Licence 2.0.&lt;/a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p>
-&lt;p>Hugo makes use of a variety of open source projects including:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a class="link" href="https://github.com/yuin/goldmark" target="_blank" rel="noopener"
->https://github.com/yuin/goldmark&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://github.com/alecthomas/chroma" target="_blank" rel="noopener"
->https://github.com/alecthomas/chroma&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://github.com/muesli/smartcrop" target="_blank" rel="noopener"
->https://github.com/muesli/smartcrop&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://github.com/spf13/cobra" target="_blank" rel="noopener"
->https://github.com/spf13/cobra&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://github.com/spf13/viper" target="_blank" rel="noopener"
->https://github.com/spf13/viper&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p>
-&lt;p>Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p>
-&lt;p>Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p>
-&lt;p>Learn more and contribute on &lt;a class="link" href="https://github.com/gohugoio" target="_blank" rel="noopener"
->GitHub&lt;/a>.&lt;/p></description></item><item><title>Links</title><link>https://mind-benders.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Mind Bender's Blog</title><link>https://mind-benders.github.io/page/</link><description>Recent content in Pages on Mind Bender's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mind-benders.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://mind-benders.github.io/about/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/about/</guid><description>&lt;p>Mind Benders is a new club at Thakur College Of Engineering &amp;amp; Technology (TCET) founded during the year 2022. The club comes under the department of Artificial Intelligence &amp;amp; Data Science (AI&amp;amp;DS) and is founded by the Core Members of Batch 2020-2024 comprosmising of:&lt;/p>
+&lt;ol>
+&lt;li>Kunal Agrawal - President&lt;/li>
+&lt;li>Aman Tiwari - Vice President&lt;/li>
+&lt;li>Ganesh Utla - Secretary&lt;/li>
+&lt;li>Deexith Madas - Treasurer&lt;/li>
+&lt;li>Vaibhav Ashta - Technical Head&lt;/li>
+&lt;li>Shruti Mishra - Jt. Technical Head&lt;/li>
+&lt;li>Keval Waghate - Publication Head&lt;/li>
+&lt;li>Harsh Rana - Marketing Head&lt;/li>
+&lt;li>Vishal Gupta - Event Manager&lt;/li>
+&lt;/ol>
+&lt;p>The Club was formed due to dire need of activities that were more in-line with the requirements of the department and give students more hands-on approach for learning new tools &amp;amp; technology in more fun &amp;amp; interactive way.&lt;/p>
+&lt;!-- Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+* https://github.com/yuin/goldmark
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
+Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+Learn more and contribute on [GitHub](https://github.com/gohugoio).
+--></description></item><item><title>Archives</title><link>https://mind-benders.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://mind-benders.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
 &lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
