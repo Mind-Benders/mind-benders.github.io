@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Mind Benders</title><link>https://mind-benders.github.io/post/</link><description>Recent content in Posts on Mind Benders</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mind-benders.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Emoji Support</title><link>https://mind-benders.github.io/p/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/emoji-support/</guid><description>&lt;img src="https://mind-benders.github.io/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" />&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Mind Benders</title><link>https://mind-benders.github.io/post/</link><description>Recent content in Posts on Mind Benders</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mind-benders.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Git &amp; Github Workshop</title><link>https://mind-benders.github.io/p/git-github-workshop/</link><pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/git-github-workshop/</guid><description>&lt;img src="https://mind-benders.github.io/p/git-github-workshop/poster.jpeg" alt="Featured image of post Git &amp; Github Workshop" />&lt;p>Learn how to start building, shipping, and maintaining software with Git &amp;amp; GitHub. Mind Benders is pleased to announce that the workshop will be conducted you Dhiraj Chauhan from TE COMPS, who is a GitHub Campus Expert Trainee.&lt;/p>
+&lt;p>The event will be conducted on 7th July, 22 from 4:30 - 5:30 at Lab 308 @ TCET.&lt;/p>
+&lt;p>So Why Git?&lt;/p>
+&lt;ul>
+&lt;li>Over 70% of developers use Git!&lt;/li>
+&lt;li>Developers can work together from anywhere in the world.&lt;/li>
+&lt;li>Developers can see and revert to earlier versions of the project.&lt;/li>
+&lt;/ul>
+&lt;p>What will you learn:&lt;/p>
+&lt;ol>
+&lt;li>Git &amp;amp; Github&lt;/li>
+&lt;li>Manage projects with Repositories&lt;/li>
+&lt;li>Clone a project to work on a local copy&lt;/li>
+&lt;li>Branch and Merge to work on different parts and versions of a project&lt;/li>
+&lt;li>Push &amp;amp; Pull the latest version of the project to Github&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="post-event">Post Event&lt;/h2>
+&lt;p>The event was a great success and had 20+ partcipants from the branch.&lt;/p>
+&lt;p>Despite some minor hiccups the event was conducted smoothly with particpants taking home valuable lessons on why they should be using &amp;amp; implementing Git on their projects.&lt;/p>
+&lt;p>More Fun &amp;amp; Interactive events are planned so Stay tuned.&lt;/p></description></item><item><title>Emoji Support</title><link>https://mind-benders.github.io/p/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/emoji-support/</guid><description>&lt;img src="https://mind-benders.github.io/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" />&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
 &lt;p>The &lt;a class="link" href="https://gohugo.io/functions/emojify/" target="_blank" rel="noopener"
 >&lt;code>emojify&lt;/code>&lt;/a> function can be called directly in templates or &lt;a class="link" href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes" target="_blank" rel="noopener"
 >Inline Shortcodes&lt;/a>.&lt;/p>
