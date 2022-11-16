@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Month in AI on Mind Benders</title><link>https://mind-benders.github.io/tags/month-in-ai/</link><description>Recent content in Month in AI on Mind Benders</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mind-benders.github.io/tags/month-in-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>This Month in AI - October 2022</title><link>https://mind-benders.github.io/p/tmai-october-2022/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/tmai-october-2022/</guid><description>&lt;img src="https://mind-benders.github.io/p/tmai-october-2022/Poster.jpg" alt="Featured image of post This Month in AI - October 2022" />&lt;h2 id="an-ai-that-can-help-to-design-new-proteins-and-to-unleash-new-cures-and-accouterments-1">An AI that can help to design new proteins and to unleash new cures and accouterments. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>A group of experimenters from the University of Washington described a new tool ProteinMPNN, which could help experimenters discover preliminarily unknown proteins and design entirely new bones. It will open an entire new macrocosm of possible proteins for experimenters to design from scratch.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-october-2022/1.jpg"
+width="807"
+height="454"
+srcset="https://mind-benders.github.io/p/tmai-october-2022/1_hud3fa4513dfaf2a56f67a896e5d1e2b3e_37508_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-october-2022/1_hud3fa4513dfaf2a56f67a896e5d1e2b3e_37508_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="A structure of protein discovered by researchers using AI"
+>
+&lt;figcaption>A structure of protein discovered by researchers using AI&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>ProteinMPNN will help experimenters with the inverse problem. Machine literacy will make the whole process a lot more hastily and light, and will allow experimenters to produce fully new proteins and structures on a much larger scale.&lt;/p>
+&lt;h2 id="an-open-source-unified-language-learner-2">An Open Source Unified Language Learner &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Google researchers have presented a novel language pre-training paradigm called Unified Language Learner that improves the performance of language models universally across datasets and setups. Building models that understand and generate natural language well is one of the grand goals of machine learning research. Improving the quality of our language models is a key target for researchers to make progress toward such a goal.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://raw.githubusercontent.com/Mind-Benders/blog-content/main/post/Blogs/october_2022/2.gif"
+loading="lazy"
+alt="An overview of the denoising objectives used in UL2’s mixture-of-denoisers."
+>
+&lt;figcaption>An overview of the denoising objectives used in UL2’s mixture-of-denoisers.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="ai-can-detect-drunkenness-by-evaluating-infrared-images-of-human-faces-with-93-accuracy-3">AI can detect drunkenness by evaluating infrared images of human faces with 93% accuracy &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Artificial intelligence has developed a way to detect whether a person is drunk or not using thermal imaging. The technology could be used by police to screen people in city centers or at events where alcohol is likely to have been consumed. Thermal imaging offers a less ambiguous approach that is also non-invasive, researchers say.&lt;/p>
+&lt;p>Any system designed to identify inebriated people must have a very low rate of false positives and false negatives. After all, a false negative might see a drunk person driving their car whereas too many false positives would lead to frustration and a loss of trust in the system among the public.&lt;/p>
+&lt;h2 id="an-open-source-image-database-that-unlocks-the-power-of-ai-for-ocean-exploration-4">An open-source image database that unlocks the power of AI for ocean exploration &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Fathom Net is an open-source image database that uses state-of-the-art data processing algorithms to help process the backlog of visual data. Using artificial intelligence and machine learning will alleviate the bottleneck for analyzing underwater imagery and accelerate important research around ocean health.&lt;/p>
+&lt;p>Recent advances in machine learning enable fast, sophisticated analysis of visual data. Still, the use of AI in ocean research has been limited by the lack of a standard set of existing images that could be used to train the machines to recognize and catalog underwater objects and life. This will surely help in ocean cleaning.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-october-2022/4.jpg"
+width="800"
+height="448"
+srcset="https://mind-benders.github.io/p/tmai-october-2022/4_hu00bfb3346a60f9a511cde0e2b3a59990_40509_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-october-2022/4_hu00bfb3346a60f9a511cde0e2b3a59990_40509_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Labeled image data for deep learning algorithms require an annotation and localization for a single concept."
+>
+&lt;figcaption>Labeled image data for deep learning algorithms require an annotation and localization for a single concept.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="how-ai-image-generators-could-help-robots-5">How AI image generators could help robots &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>The field of AI-generated art can be traced back as far as the 1960s with early attempts using symbolic rule-based approaches to make technical images. The way these generative models generate images: initially, you have this really nice image, where you start from this random noise, and you basically learn how to simulate the process of how to reverse this process of going from noise back to your original image, where you try to iteratively refine this image to make it more and more realistic.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-october-2022/5.jpg"
+width="800"
+height="533"
+srcset="https://mind-benders.github.io/p/tmai-october-2022/5_hu70b0eaeb2ce12b5290f9872adc81255b_61909_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-october-2022/5_hu70b0eaeb2ce12b5290f9872adc81255b_61909_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Researchers have been working on extending stable diffusion models, the technical backbone of generative art to other domains such as robotics."
+>
+&lt;figcaption>Researchers have been working on extending stable diffusion models, the technical backbone of generative art to other domains such as robotics.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>The researchers describe how these models can work wrt to robotics: as you can generate different images, you can also generate different robot trajectories (the path and schedule), and by composing different models together, you are able to generate trajectories with different combinations of skills. If I have natural language specifications of jumping versus avoiding an obstacle, you could also compose these models together, and then generate robot trajectories that can both jump and avoid an obstacle.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://www.technologyreview.com/2022/09/15/1059550/an-ai-that-can-design-new-proteins-could-help-unlock-new-cures-and-materials/" target="_blank" rel="noopener"
+>https://www.technologyreview.com/2022/09/15/1059550/an-ai-that-can-design-new-proteins-could-help-unlock-new-cures-and-materials/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a class="link" href="https://ai.googleblog.com/2022/10/ul2-20b-open-source-unified-language.html" target="_blank" rel="noopener"
+>https://ai.googleblog.com/2022/10/ul2-20b-open-source-unified-language.html&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a class="link" href="https://techxplore.com/news/2022-10-ai-network-drunkenness-infrared-images.html" target="_blank" rel="noopener"
+>https://techxplore.com/news/2022-10-ai-network-drunkenness-infrared-images.html&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a class="link" href="https://techxplore.com/news/2022-10-open-source-image-database-power-ai.html" target="_blank" rel="noopener"
+>https://techxplore.com/news/2022-10-open-source-image-database-power-ai.html&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;a class="link" href="https://techxplore.com/news/2022-10-ai-image-robots.html" target="_blank" rel="noopener"
+>https://techxplore.com/news/2022-10-ai-image-robots.html&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>This Month in AI - September 2022</title><link>https://mind-benders.github.io/p/tmai-september-2022/</link><pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/tmai-september-2022/</guid><description>&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/Poster.jpg" alt="Featured image of post This Month in AI - September 2022" />&lt;h2 id="ai-reduces-a-100000-equation-quantum-physics-problem-to-4-equations-1">AI Reduces a 100,000-Equation Quantum Physics Problem to 4 Equations &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Physicists have compressed a daunting quantum problem that required 100,000 equations into just four. Breakthrough could help scientists better understand the behavior of electrons in materials. Machine learning tool could also be used in other fields, such as cosmology and neuroscience.&lt;/p>
+&lt;p>Physicists have compressed a daunting quantum problem that required 100,000 equations into just four using AI. The renormalization group is a jumbo-size set of equations that must be solved. Di Sante and his colleagues used a machine learning program which captured the Hubbard model&amp;rsquo;s physics with just four equations.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/physics_Eq.png"
+width="800"
+height="250"
+srcset="https://mind-benders.github.io/p/tmai-september-2022/physics_Eq_hu4d93cd80ca2964ebec1b35e4470159de_305687_480x0_resize_box_3.png 480w, https://mind-benders.github.io/p/tmai-september-2022/physics_Eq_hu4d93cd80ca2964ebec1b35e4470159de_305687_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="The Flatiron Institute&amp;rsquo;s researchers used machine learning to crunch down the problem to just four equations, each representing a single interaction between electrons."
+>
+&lt;figcaption>The Flatiron Institute&amp;#39;s researchers used machine learning to crunch down the problem to just four equations, each representing a single interaction between electrons.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>This breakthrough could help scientists better understand the behavior of electrons in materials, which could lead to new technologies. There are also exciting possibilities for using the technique in other fields that deal with renormalization groups, such as cosmology and neuroscience.&lt;/p>
+&lt;h2 id="google-lens--text-to-speech-gets-major-upgrades-2-3">Google Lens &amp;amp; Text To Speech gets major upgrades &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Google has annonced that they have updated all 421 voices in 67 languages with a new voice model and synthesizer. This update is available for all 64bit Android Devices by updating/installing the Speech Services by Google app.&lt;/p>
+&lt;p>The model is built using fresher speaker data, which alongside new stack, results in a drastic improvement in speech synthesis.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/Text-to-Speech.png"
+width="682"
+height="203"
+srcset="https://mind-benders.github.io/p/tmai-september-2022/Text-to-Speech_hu8731e07fe8b4f8a13a89f781a5a7faa3_32677_480x0_resize_box_3.png 480w, https://mind-benders.github.io/p/tmai-september-2022/Text-to-Speech_hu8731e07fe8b4f8a13a89f781a5a7faa3_32677_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="All 421 voices in 67 languages have been upgraded with a new voice model and synthesizer. Voice Services by Google speech engine providing clearer, more natural voices."
+>
+&lt;figcaption>Voice Services by Google speech engine providing clearer, more natural voices.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Google showed off a new feature for Google Lens, which uses ML and augmented reality (ar) to deliver a more seamless real-time translation experience. The new Lens AR Translate experience doesn&amp;rsquo;t show any bars on the original image. It utilizes machine learning to erase the original text, recreate the pixels underneath with an AI-generated background, and then overlay the translated text. The feature will be available in 59 languages.&lt;/p>
+&lt;p>The company claims the experience will roll out later this year. Google uses the same technology that powers the Magic Eraser feature on Pixel devices to do this.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/Google-Lens.png"
+width="960"
+height="540"
+srcset="https://mind-benders.github.io/p/tmai-september-2022/Google-Lens_hua243391b2e6b42e82843091a683dcefd_123466_480x0_resize_box_3.png 480w, https://mind-benders.github.io/p/tmai-september-2022/Google-Lens_hua243391b2e6b42e82843091a683dcefd_123466_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Google Lens&amp;rsquo; real-time translations will soon look a lot more seamless."
+>
+&lt;figcaption>Google Lens&amp;#39; real-time translations will soon look a lot more seamless.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="lyra-v2---a-better-faster-and-more-versatile-speech-codec-4">Lyra V2 - a better, faster, and more versatile speech codec &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Lyra is a open-source speech codec that Google developed to improve the quality of speech recognition.&lt;/p>
+&lt;p>Lyra V2 is faster, efficient, versatile and is designed to be used in low-power devices, such as smart speakers and mobile phones. It is based on E2E neural audio codec called SoundStream. It offers scalable bitrate capabilities, better performance, and generates higher quality audio.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/Lyra-V2.png"
+width="1500"
+height="450"
+srcset="https://mind-benders.github.io/p/tmai-september-2022/Lyra-V2_hu2ce5e9a4d827be431362dd137227b3c6_89967_480x0_resize_box_3.png 480w, https://mind-benders.github.io/p/tmai-september-2022/Lyra-V2_hu2ce5e9a4d827be431362dd137227b3c6_89967_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Lyra V2 is a speech codec that Google developed to improve the quality of speech recognition."
+>
+&lt;figcaption>Model of Lyra V2 Codec&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="gaudi-a-neural-architect-for-immersive-3d-scene-generation-5">GAUDI: A Neural Architect for Immersive 3D Scene Generation &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>GAUDI is a neural architecture that can generate realistic 3D scenes from a single image designed to be used in VR. It&amp;rsquo;s generative model capable of capturing the distribution of complex and realistic 3D scenes that can be rendered immersively from a moving camera.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/gaudi.png"
+width="238"
+height="212"
+srcset="https://mind-benders.github.io/p/tmai-september-2022/gaudi_huccca8dd1ba113af2b9cbf0748b44bcf3_7136_480x0_resize_box_3.png 480w, https://mind-benders.github.io/p/tmai-september-2022/gaudi_huccca8dd1ba113af2b9cbf0748b44bcf3_7136_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="GAUDI is a neural architecture that can generate 3D scenes from a single image."
+>
+&lt;figcaption>Example 3D Scenes generated by GAUDI&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>GAUDI obtains state-of-the-art performance in the unconditional generative setting across multiple datasets.&lt;/p>
+&lt;h2 id="metas-make-a-video-an-ai-system-that-generates-videos-from-text-6">Meta&amp;rsquo;s Make-A-Video: An AI system that generates videos from text &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Make-A-Video is a new AI system that can generate videos from text prompts. It&amp;rsquo;s designed to be used in virtual reality, and it can generate realistic 3D scenes from a single image. It&amp;rsquo;s also designed to be used in virtual reality, and it can generate realistic 3D scenes from a single image.&lt;/p>
+&lt;p>The system learns what the world looks like from paired text-image data. It can also create videos from images or take existing videos and create new ones that are similar.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://raw.githubusercontent.com/Mind-Benders/blog-content/main/post/Blogs/september_2022/makeavideo.webp"
+loading="lazy"
+alt="Make-A-Video is a new AI system that can generate videos from text &amp;lsquo;Robot dancing in times square&amp;rsquo;."
+>
+&lt;figcaption>Video generated from text &amp;#39;Robot dancing in times square&amp;#39; using Make-A-Video&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Make-A-Video follows Meta&amp;rsquo;s announcement earlier of &lt;a class="link" href="https://mind-benders.github.io/p/tmai-july-2022/#the-meta-ai--greater-creative-control-for-ai-image-generation-1" title="Make-A-Scene"
+>Make-A-Scene&lt;/a>&lt;/p>
+&lt;h2 id="nvidia-dlss-3-higher-fps-using-ai-7">NVIDIA DLSS 3: Higher FPS using AI &lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>NVIDIA DLSS revolutionized graphics by using AI super resolution and Tensor Cores on GeForce RTX GPUs to boost frame rates while delivering crisp, high quality images that rival native resolution.&lt;/p>
+&lt;p>DLSS 3 is a revolutionary breakthrough in AI-powered graphics that massively boosts performance, while maintaining great image quality and responsiveness. Building upon DLSS Super Resolution, DLSS 3 adds Optical Multi Frame Generation to generate entirely new frames, and integrates NVIDIA Reflex low latency technology for optimal responsiveness. It can lead upto 4x performace over brute-force rendering.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/nvidia-dlss-3-working.jpg"
+width="3591"
+height="1803"
+srcset="https://mind-benders.github.io/p/tmai-september-2022/nvidia-dlss-3-working_huefe76e5ed7462452e18e07fc1a5007fc_1530079_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-september-2022/nvidia-dlss-3-working_huefe76e5ed7462452e18e07fc1a5007fc_1530079_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Working of NVIDIA&amp;rsquo;s DLSS 3"
+>
+&lt;figcaption>Working of NVIDIA&amp;#39;s DLSS 3 which improves FPS by using lower resolution input frames to output higher resolution frames&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="pytorch-foundation-a-new-era-for-the-cutting-edge-ai-framework-8">PyTorch Foundation: A new era for the cutting-edge AI framework &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>PyTorch is moving to a new, independent PyTorch Foundation, under the Linux Foundation umbrella. PyTorch was built with an open source, community-first philosophy, and that will not change. The foundation&amp;rsquo;s mission is to drive adoption of AI tooling by fostering and sustaining an ecosystem of open source projects. It will democratize state-of-the-art tools, libraries, and other components to make these innovations accessible to everyone.&lt;/p>
+&lt;p>PyTorch was created by a group of Meta AI researchers to fix the tedious, complicated pipeline of the AI field. Meta will continue to invest in the framework, and use it as the primary framework for our AI research and production. The framework will continue to be a part of Meta&amp;rsquo;s AI research and engineering work.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/pytorch.jpg"
+width="603"
+height="344"
+srcset="https://mind-benders.github.io/p/tmai-september-2022/pytorch_hu535661bce2c742bf7a0f6a055ac0b6d1_86398_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-september-2022/pytorch_hu535661bce2c742bf7a0f6a055ac0b6d1_86398_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt=" PyTorch Foundation will focus on the business and product marketing of PyTorch and the related ecosystem"
+>
+&lt;figcaption>PyTorch Foundation will focus on the business and product marketing of PyTorch and the related ecosystem&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="the-eu-wants-to-put-companies-on-the-hook-for-harmful-ai-9">The EU wants to put companies on the hook for harmful AI &lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>The EU is creating new rules to make it easier to sue AI companies for harm. A bill unveiled this week is likely to become law in a couple of years. The bill would give people and companies the right to sue for damages after being harmed by an AI system. It will add teeth to the EU&amp;rsquo;s AI Act, which is set to become law around the same time.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-september-2022/EU.png"
+width="1200"
+height="800"
+srcset="https://mind-benders.github.io/p/tmai-september-2022/EU_hucec48095be29928448e5feedad6dc36a_32370_480x0_resize_box_3.png 480w, https://mind-benders.github.io/p/tmai-september-2022/EU_hucec48095be29928448e5feedad6dc36a_32370_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Whether or not it succeeds, this new EU legislation will have a ripple effect on how AI is regulated around the world."
+>
+&lt;figcaption>Whether or not it succeeds, this new EU legislation will have a ripple effect on how AI is regulated around the world.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>The EU wants to be the global gold standard for AI regulation. Other countries, such as the US, are considering similar regulations. The Federal Trade Commission is considering rules around how companies handle data and build algorithms. It has forced companies that have collected data illegally to delete their algorithms.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://www.simonsfoundation.org/2022/09/26/artificial-intelligence-reduces-a-100000-equation-quantum-physics-problem-to-only-four-equations/" target="_blank" rel="noopener"
+>https://www.simonsfoundation.org/2022/09/26/artificial-intelligence-reduces-a-100000-equation-quantum-physics-problem-to-only-four-equations/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a class="link" href="https://android-developers.googleblog.com/2022/09/listen-to-our-major-text-to-speech-upgrades-for-64-bit-devices.html?m=1" target="_blank" rel="noopener"
+>https://android-developers.googleblog.com/2022/09/listen-to-our-major-text-to-speech-upgrades-for-64-bit-devices.html?m=1&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a class="link" href="https://www.xda-developers.com/google-lens-ar-translate/" target="_blank" rel="noopener"
+>https://www.xda-developers.com/google-lens-ar-translate/&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a class="link" href="https://opensource.googleblog.com/2022/09/lyra-v2-a-better-faster-and-more-versatile-speech-codec.html" target="_blank" rel="noopener"
+>https://opensource.googleblog.com/2022/09/lyra-v2-a-better-faster-and-more-versatile-speech-codec.html&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;a class="link" href="https://machinelearning.apple.com/research/gaudi" target="_blank" rel="noopener"
+>https://machinelearning.apple.com/research/gaudi&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>&lt;a class="link" href="https://ai.facebook.com/blog/generative-ai-text-to-video/" target="_blank" rel="noopener"
+>https://ai.facebook.com/blog/generative-ai-text-to-video/&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7">
+&lt;p>&lt;a class="link" href="https://www.nvidia.com/en-us/geforce/news/dlss3-ai-powered-neural-graphics-innovations/" target="_blank" rel="noopener"
+>https://www.nvidia.com/en-us/geforce/news/dlss3-ai-powered-neural-graphics-innovations/&lt;/a>&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8">
+&lt;p>&lt;a class="link" href="https://ai.facebook.com/blog/pytorch-foundation/" target="_blank" rel="noopener"
+>https://ai.facebook.com/blog/pytorch-foundation/&lt;/a>&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9">
+&lt;p>&lt;a class="link" href="https://www.technologyreview.com/2022/10/01/1060539/eu-tech-policy-harmful-ai-liability/" target="_blank" rel="noopener"
+>https://www.technologyreview.com/2022/10/01/1060539/eu-tech-policy-harmful-ai-liability/&lt;/a>&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>This Month in AI - August 2022</title><link>https://mind-benders.github.io/p/tmai-august-2022/</link><pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/tmai-august-2022/</guid><description>&lt;img src="https://mind-benders.github.io/p/tmai-august-2022/August_2022.jpg" alt="Featured image of post This Month in AI - August 2022" />&lt;h2 id="new-ai-powered-app-could-boost-smartphone-battery-life-by-30-1">New AI-Powered App Could Boost Smartphone Battery Life by 30% &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-august-2022/AI_Powered_App.jpg"
+width="350"
+height="233"
+srcset="https://mind-benders.github.io/p/tmai-august-2022/AI_Powered_App_huaf0d32193d947eacc75729d341eda392_14857_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-august-2022/AI_Powered_App_huaf0d32193d947eacc75729d341eda392_14857_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="The app also optimizes the performance of other apps running at the same time."
+>
+&lt;figcaption>The app also optimizes the performance of other apps running at the same time.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>EOptomizer App is a new cutting-edge AI invention spearheaded by Dr. Amit Singh, the University of Essex. The app could potentially increase smartphone battery life by upto 30% thus saving electricity and bills. The app uses AI to optimize performance, heat generation, and efficiency of the chip.&lt;/p>
+&lt;p>The app is conceived to be used throughout the industry and help reduce carbon emissions.&lt;/p>
+&lt;h2 id="highly-efficient-new-neuromorphic-chip-for-ai-on-the-edge-2">Highly-Efficient New Neuromorphic Chip for AI on the Edge &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>The NeuRRAM chip is the first compute-in-memory chip to demonstrate a wide range of AI applications while using just a small percentage of the energy consumed by other platforms while maintaining equivalent accuracy.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-august-2022/NeuRRAM-Chip.jpg"
+width="777"
+height="518"
+srcset="https://mind-benders.github.io/p/tmai-august-2022/NeuRRAM-Chip_hu0da248f4a70ed80d9f56fee568e6e4a4_69159_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-august-2022/NeuRRAM-Chip_hu0da248f4a70ed80d9f56fee568e6e4a4_69159_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt=" A team of international researchers designed, manufactured, and tested the NeuRRAM chip. Credit: David Baillot/University of California San Diego "
+>
+&lt;figcaption>A team of international researchers designed, manufactured, and tested the NeuRRAM chip. Credit: David Baillot/University of California San Diego&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Intel has unveiled a chip that can run a wide variety of AI applications at a fraction of the energy consumed by other platforms. NeuRRAM chip can perform sophisticated cognitive tasks anywhere and anytime without relying on a network connection to a central server. It is twice as energy efficient as the state-of-the-art &amp;ldquo;compute-in-memory&amp;rdquo; chips.&lt;/p>
+&lt;h2 id="van-goghs-hidden-portrait-recreated-135-years-after-being-painted-3">Van Gogh’s ‘hidden’ portrait recreated 135 years after being painted &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Portrait of two male wrestlers was discovered 10 years ago beneath another Van Gogh painting. It shows the two men locked in combat with splashes of red blood against a background of blue strokes. X-ray technology had previously revealed the painting, but artificial intelligence has now brought it to life in colour.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-august-2022/135.png"
+width="990"
+height="732"
+srcset="https://mind-benders.github.io/p/tmai-august-2022/135_hu727246767dc7d761c7aa8859f15f2eb5_2134319_480x0_resize_box_3.png 480w, https://mind-benders.github.io/p/tmai-august-2022/135_hu727246767dc7d761c7aa8859f15f2eb5_2134319_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="The Two Wrestlers recreation is set to be exhibited in The Louvre (Supplied)"
+>
+&lt;figcaption>The Two Wrestlers recreation is set to be exhibited in The Louvre (Supplied)&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>This painting was thought to have been lost or destroyed until it was rediscovered behind another Van Gogh work in 2012.&lt;/p>
+&lt;h2 id="digitizing-smell-using-molecular-maps-to-understand-odor-4">Digitizing Smell: Using Molecular Maps to Understand Odor &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Smells are produced by molecules that waft through the air and enter our noses, and bind to sensory receptors. Potentially billions of molecules can produce a smell, so figuring out which ones produce which smells is difficult to catalog or predict. Sensory maps can help us solve this problem, and have existed for centuries, but not for smell.
+The model works by exploring thousands of examples of distinct molecules paired with the smell labels that they evoke, e.g., &amp;ldquo;beefy&amp;rdquo;, &amp;ldquo;floral&amp;rdquo;, or &amp;ldquo;minty&amp;rdquo;.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-august-2022/POM.jpg"
+width="1999"
+height="1061"
+srcset="https://mind-benders.github.io/p/tmai-august-2022/POM_hudb92b64d30c07def8b03d8f5c82b4090_165366_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-august-2022/POM_hudb92b64d30c07def8b03d8f5c82b4090_165366_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt=" The Principal Odor Map is a map that maps molecules chemical character. Individual molecules locations are determined by their odour, and the locations of these points reflect predictions of their odor character. "
+>
+&lt;figcaption>The Principal Odor Map is a map that maps molecules chemical character. Individual molecules locations are determined by their odour, and the locations of these points reflect predictions of their odor character.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://scitechdaily.com/new-ai-powered-app-could-boost-smartphone-battery-life-by-30/" target="_blank" rel="noopener"
+>https://scitechdaily.com/new-ai-powered-app-could-boost-smartphone-battery-life-by-30/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a class="link" href="https://scitechdaily.com/highly-efficient-new-neuromorphic-chip-for-ai-on-the-edge/" target="_blank" rel="noopener"
+>https://scitechdaily.com/highly-efficient-new-neuromorphic-chip-for-ai-on-the-edge/&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a class="link" href="https://www.independent.co.uk/arts-entertainment/art/van-gogh-hidden-painting-wrestlers-b2155439.html" target="_blank" rel="noopener"
+>https://www.independent.co.uk/arts-entertainment/art/van-gogh-hidden-painting-wrestlers-b2155439.html&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a class="link" href="https://ai.googleblog.com/2022/09/digitizing-smell-using-molecular-maps.html" target="_blank" rel="noopener"
+>https://ai.googleblog.com/2022/09/digitizing-smell-using-molecular-maps.html&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>This Month in AI - July 2022</title><link>https://mind-benders.github.io/p/tmai-july-2022/</link><pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/tmai-july-2022/</guid><description>&lt;img src="https://mind-benders.github.io/p/tmai-july-2022/July_2022.png" alt="Featured image of post This Month in AI - July 2022" />&lt;p>In this world of fast-paced progress, everyday we try to find out new updates, new features and new inventions that are shaping our future life like never before. Day by day, the information surrounding us increases, bombarding us with bits only to be forgotten or missed leaving us completely overwhelmed in the process .&lt;/p>
+&lt;p>By collecting &amp;amp; organizing the data, we have built tools to build models and generate AI that have started to pop in the real world. Lots of people consider AI as an evolutionary change in human life, which is quite debatable. But collecting knowledge about all the new changes is still possible for us.&lt;/p>
+&lt;p>Thus, The Month in AI Blog Series aims to summarize newest trends &amp;amp; research breakthroughs that will shape the world of AI.&lt;/p>
+&lt;h2 id="the-meta-ai--greater-creative-control-for-ai-image-generation-1">The Meta AI : Greater creative control for AI image generation &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Meta AI published the AI research concept known as Make-A-Scene. Make-A-Scene had the potential to empower the imagination into a life.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-july-2022/meta_generative_ai.jpg"
+width="1920"
+height="1080"
+srcset="https://mind-benders.github.io/p/tmai-july-2022/meta_generative_ai_hube3343b77de99cb499300b8d9b324547_358389_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-july-2022/meta_generative_ai_hube3343b77de99cb499300b8d9b324547_358389_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Colorful Cat Sculpture Genereated by Make-A-Scene"
+>
+&lt;figcaption>Colorful Cat Sculpture Genereated by Make-A-Scene&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>It can be hard to generate compositions of two different parts. If we consider the example ‘cat hanging to the tree’. This type of prediction may be hard for the model. The height of the tree is smaller than a cat or bigger than a cat, Is the cat hanging to the left side or right side, Is it facing upside or downside. So reflection of image won&amp;rsquo;t be the solution of this perdition.&lt;/p>
+&lt;p>To overcome this problem the scientist starts working on the sketch part so if a non-artist draws anything he can get the output that they are imagining.&lt;/p>
+&lt;h2 id="smart-textiles-sense-how-their-users-are-moving-2">Smart textiles sense how their users are moving &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>07 July, 2022 MIT Researchers developed a comfortable, form-fitting fabric that recognizes its wearer’s activities, like walking, running, and jumping.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202207/MIT_3D-Knits-01-PRESS_0.jpg"
+loading="lazy"
+alt=" a sock made from the novel fabrication process "
+>
+&lt;figcaption>A sock made from the novel fabrication process&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;img src="https://mind-benders.github.io/p/tmai-july-2022/MIT_Train_detect.jpg"
+width="1280"
+height="720"
+srcset="https://mind-benders.github.io/p/tmai-july-2022/MIT_Train_detect_huaa2a1721b5436991bdfc52cf7753dcb5_100698_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-july-2022/MIT_Train_detect_huaa2a1721b5436991bdfc52cf7753dcb5_100698_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Workout Detection"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>
+&lt;img src="https://mind-benders.github.io/p/tmai-july-2022/MIT_3D-Knits-03-PRESS.jpg"
+width="1669"
+height="1112"
+srcset="https://mind-benders.github.io/p/tmai-july-2022/MIT_3D-Knits-03-PRESS_huebbfad1edfa8e198fe68a27ac6a615ca_320887_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-july-2022/MIT_3D-Knits-03-PRESS_huebbfad1edfa8e198fe68a27ac6a615ca_320887_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Composition of Materials"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+>
+&lt;/p>
+&lt;p>Using a novel fabrication process, MIT researchers have produced smart textiles that snugly conform to the body so they can sense the wearer’s posture and motions.&lt;/p>
+&lt;p>The technique could have many applications, especially in health care and rehabilitation. For example, it could be used to produce smart shoes that track the gait of someone who is learning to walk again after an injury, or socks that monitor pressure on a diabetic patient’s foot to prevent the formation of ulcers.&lt;/p>
+&lt;h2 id="ml-enhanced-code-completion-improves-developer-productivity-3">ML-Enhanced Code Completion Improves Developer Productivity &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Today we describe how we combined ML and SE to develop a novel Transformer-based hybrid semantic ML code completion, now available to internal Google developers.&lt;/p>
+&lt;p>The increasing complexity of code poses a key challenge to productivity in software engineering. Code completion has been an essential tool that has helped mitigate this complexity in integrated development environments (IDEs).&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4vLV_OWhGUw9u2badD0ZlCFdl1mwBlYzQCQ_XRTtCyu2DKy-yGZhKgnRvruSrAdqQOpThDNi0lbpHjSn5b18aqJ-pJnvCZTEOgrpyVO75CWGTugrrN4e_RY65v_bUdLkOvmDBI9v2j3qA7pWaUAeorGXUzAYHShoNff52lK1lSd2u1seEOSn9JW7hvg/s1043/image5.gif"
+loading="lazy"
+alt="Integrated full line completions by ML continuing the semantic dropdown completion that is in focus."
+>
+&lt;figcaption>Integrated full line completions by ML continuing the semantic dropdown completion that is in focus.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF3-J_lvEG2eJ1Tgypq_kisxte9X2VbDAVnlS5J2b7JIV4Iv_6WJIPcBp78bPP6ZeXZuv3libP_IzsYJbUQwirfjGRWiKSAH3-6GnaKZEqSeH6_neQyGHdeI9PhItukRTeUMcVYQB9c2TOXbQd01roh-X2PZlCJM53CEgeWZeer0vA1krUnekFNHucuQ/s509/image1.png"
+loading="lazy"
+alt="Suggestions of multiple line completions by ML."
+>
+&lt;figcaption>Suggestions of multiple line completions by ML.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>A common approach to code completion is to train transformer models, which use a self-attention mechanism for language understanding, to enable code understanding and completion predictions. We treat code similar to language, represented with sub-word tokens and a SentencePiece vocabulary, and use encoder-decoder transformer models running on TPUs to make completion predictions. The input is the code that is surrounding the cursor (~1000-2000 tokens) and the output is a set of suggestions to complete the current or multiple lines. Sequences are generated with a beam sea rch (or tree exploration) on the decoder.&lt;/p>
+&lt;h2 id="dalle-2---openai-4">DALL·E 2 - OpenAI &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>The artificial intelligence research lab OpenAI revealed DALL·E 2, the successor to 2021’s DALL·E. Both AI systems can generate astounding images from natural-language text descriptions.&lt;/p>
+&lt;p>DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs. We’ve found that it has a diverse set of capabilities, including creating anthropomorphized versions of animals and objects, combining unrelated concepts in plausible ways, rendering text, and applying transformations to existing images.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-july-2022/OpenAI_asto.jpg"
+width="1024"
+height="1024"
+srcset="https://mind-benders.github.io/p/tmai-july-2022/OpenAI_asto_hue0d9d6109f0a18f37e84771b9851ce4b_113034_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-july-2022/OpenAI_asto_hue0d9d6109f0a18f37e84771b9851ce4b_113034_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="An astronaut riding a horse in a photorealistic style"
+>
+&lt;figcaption>An astronaut riding a horse in a photorealistic style&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation/" target="_blank" rel="noopener"
+>https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a class="link" href="https://news.mit.edu/2022/smart-textiles-sense-movement-0707" target="_blank" rel="noopener"
+>https://news.mit.edu/2022/smart-textiles-sense-movement-0707&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a class="link" href="https://ai.googleblog.com/2022/07/ml-enhanced-code-completion-improves.html" target="_blank" rel="noopener"
+>https://ai.googleblog.com/2022/07/ml-enhanced-code-completion-improves.html&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a class="link" href="https://openai.com/dall-e-2/" target="_blank" rel="noopener"
+>https://openai.com/dall-e-2/&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>
