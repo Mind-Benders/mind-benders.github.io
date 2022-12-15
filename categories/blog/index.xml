@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Mind Benders</title><link>https://mind-benders.github.io/categories/blog/</link><description>Recent content in Blog on Mind Benders</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mind-benders.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>This Month in AI - October 2022</title><link>https://mind-benders.github.io/p/tmai-october-2022/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/tmai-october-2022/</guid><description>&lt;img src="https://mind-benders.github.io/p/tmai-october-2022/Poster.jpg" alt="Featured image of post This Month in AI - October 2022" />&lt;h2 id="an-ai-that-can-help-to-design-new-proteins-and-to-unleash-new-cures-and-accouterments-1">An AI that can help to design new proteins and to unleash new cures and accouterments. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Mind Benders</title><link>https://mind-benders.github.io/categories/blog/</link><description>Recent content in Blog on Mind Benders</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mind-benders.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>This Month in AI - November 2022</title><link>https://mind-benders.github.io/p/tmai-november-2022/</link><pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/tmai-november-2022/</guid><description>&lt;img src="https://mind-benders.github.io/p/tmai-november-2022/Poster.jpg" alt="Featured image of post This Month in AI - November 2022" />&lt;h2 id="best-language-models-that-have-become-prominent-in-nlp-1">Best Language Models that have become prominent in NLP &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Recent studies revealed that Language Models(LMs) have become more prominent and increasingly important in NLP research and impactful practice. The performance of NLP tasks has been improved by scaling up language models. Scaling up LMs required a great number of computational resources.&lt;/p>
+&lt;p>The researchers have explored two complementary approaches for improving existing language models which are &amp;ldquo;Transcending Scaling Laws with 0.1% Extra Compute&amp;rdquo; and &amp;ldquo;Scaling Instruction-Fine Tuned Language Models&amp;rdquo;.
+In the First method, they introduced UL2R which improves performance across a range of NLP tasks in “Scaling Instruction-Finetuned Language Models”, they explore fine-tuning a language model on a collection of datasets phrased as instructions, a process they call “Flan”.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img src="https://mind-benders.github.io/p/tmai-november-2022/LMs.png"
+width="640"
+height="491"
+srcset="https://mind-benders.github.io/p/tmai-november-2022/LMs_hua06c5b0ed6b9e85567285c298e92a1dd_75146_480x0_resize_box_3.png 480w, https://mind-benders.github.io/p/tmai-november-2022/LMs_hua06c5b0ed6b9e85567285c298e92a1dd_75146_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Compute versus model performance of PaLM 540B and U-PaLM 540B on 26 NLP benchmarks (listed in Table 8 in the paper). U-PaLM 540B continues training PaLM for a very small amount of compute but provides a substantial gain in performance."
+>
+&lt;figcaption>Compute versus model performance of PaLM 540B and U-PaLM 540B on 26 NLP benchmarks (listed in Table 8 in the paper). U-PaLM 540B continues training PaLM for a very small amount of compute but provides a substantial gain in performance.&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Google researchers show that Flan and UL2R can be combined as a model called Flan-U-PaLM 540B. As LMs become even larger, techniques such as UL2R and Flan that improve general performance without large amounts of compute may become increasingly attractive.&lt;/p>
+&lt;h2 id="in-machine-learning-the-use-of-synthetic-data-improves-the-performance-of-a-models-2">In machine learning, the use of synthetic data improves the performance of a models &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Researchers train machine learning models using vast datasets of video clips that show humans performing actions. Using these videos might also violate copyright or data protection laws.&lt;/p>
+&lt;p>So, researchers have come up with a solution instead of using realistic datasets they are turning to use synthetic datasets. These are made by a computer that uses 3D models of scenes, objects, and humans to quickly produce many varying clips of specific actions and this type of data does not violate copyright.&lt;/p>
+&lt;p>To test whether the synthetic data works as good as real data researchers used 150,000 synthetic datasets that captured a wide range of human actions to train machine-learning models. The researchers found that the synthetically trained models performed even better than models trained on real data for videos that have fewer background objects.&lt;/p>
+&lt;h2 id="aws-machine-learning-university-is-now-providing-a-new-program-3">AWS Machine Learning University is now providing a new program &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>AWS Machine Learning University is now providing a new program that will help institutions serving historically underserved and underrepresented students deliver courses in next-gen tech with a free, comprehensive educator-enablement bootcamp and a curriculum based on the same courses Amazon uses to train its own developers and data scientists.&lt;/p>
+&lt;p>Amazon Web Services (AWS) Machine Learning University is now launching a free program helping community colleges teach databases, artificial intelligence (AI), and machine learning concepts. The program combines an educator-enablement bootcamp with a rich curriculum to help institutions get course content and increase their teaching capacity. Black and Latino students earn bachelor&amp;rsquo;s degrees in engineering at a much lower rate than their white peers.&lt;/p>
+&lt;p>Amazon Web Services (AWS) Machine Learning University is now launching a free program helping community colleges teach database, artificial intelligence (AI), and machine learning (ML) concepts. The program combines an educator-enablement bootcamp with a rich curriculum to help institutions get course content and increase their teaching capacity. Black and Latino students earn bachelor&amp;rsquo;s degrees in engineering at a much lower rate than their white peers. Amazon Web Services (AWS) is launching a turnkey teaching solution for educational institutions. The educator-enablement bootcamps will start January 2023, and the curriculum materials will be available in spring. HCC will be the first community college in the U.S. to offer a bachelor&amp;rsquo;s degree in AI in fall 2023 pending final approval from the Southern Association of Colleges and Schools Commission on Colleges.&lt;/p>
+&lt;h2 id="ai-will-thrive-in-3-key-areas-in-2023-despite-economic-conditions-4">AI will thrive in 3 key areas in 2023, despite economic conditions &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Some of the biggest tech names have laid off artificial intelligence (AI) and machine learning employees this fall. AI experts expect AI innovation to continue, even in the midst of a possible recession. &amp;ldquo;AI will continue to be central to business by cutting costs and increasing innovation,&amp;rdquo; they say.&lt;/p>
+&lt;p>
+&lt;img src="https://mind-benders.github.io/p/tmai-november-2022/4.jpg"
+width="750"
+height="375"
+srcset="https://mind-benders.github.io/p/tmai-november-2022/4_huc9f5cfe09785666efcf3633be0c9a0ce_174234_480x0_resize_q75_box.jpg 480w, https://mind-benders.github.io/p/tmai-november-2022/4_huc9f5cfe09785666efcf3633be0c9a0ce_174234_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="200"
+data-flex-basis="480px"
+>
+&lt;/p>
+&lt;p>&amp;ldquo;AI won&amp;rsquo;t replace humans in the near term,&amp;rdquo; said Vishal Sikka, founder, and CEO of human-centered AI platform, Vian AI. In 2023, the recognition that too many platforms aren&amp;rsquo;t designed for humans to use will increase. More and more systems will be designed to amplify human judgment.&lt;/p>
+&lt;h2 id="use-of-ai-to-better-prepare-for-climate-migration-5">Use of AI to Better prepare for climate migration &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>Climate change is one of the scariest crises of our time causing natural disasters that often result in the displacement of large groups of people, known as ‘climate migrants.’ According to the United Nations International Organization for Migration, up to one billion people will become climate migrants over the next three decades. This projection rises to 1.2 billion by 2050 and 1.4 billion by 2060.&lt;/p>
+&lt;p>The responsible use of AI offers a unique perspective into climate migration that can benefit climate migrants and states alike. Current data sources include national authorities, NGOs and IGOs and administrative data sources, such as humanitarian visa numbers. However, these are often updated after a disaster happens and do not reflect the urgency of the matter at hand.
+The use of AI as a predictive and preventative mechanism allows individuals and governments to make the necessary preparations before a natural disaster strikes.&lt;/p>
+&lt;h2 id="a-far-sighted-approach-to-machine-learning-6">A far-sighted approach to machine learning &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>&lt;/h2>
+&lt;p>A new technique enables artificial intelligence agents to think much farther into the future when considering how their behaviors can influence the behaviors of other AI agents, toward the completion of a task. This approach improves long-term performance of cooperative or competitive AI agents.&lt;/p>
+&lt;p>Creating artificial intelligence agents that can learn to compete and cooperate as effectively as humans remains a thorny problem. Because of the complexity of this problem, current approaches tend to be myopic; the agents can only guess the next few moves of their teammates or competitors, which leads to poor performance in the long run.
+Their machine-learning framework enables cooperative or competitive AI agents to consider what other agents will do as time approaches infinity, not just over a few next steps.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://ai.googleblog.com/2022/11/better-language-models-without-massive.html" target="_blank" rel="noopener"
+>https://ai.googleblog.com/2022/11/better-language-models-without-massive.html&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a class="link" href="https://news.mit.edu/2022/synthetic-data-ai-improvements-1103" target="_blank" rel="noopener"
+>https://news.mit.edu/2022/synthetic-data-ai-improvements-1103&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>&lt;a class="link" href="https://www.aboutamazon.com/news/aws/aws-launches-new-ai-program-for-community-colleges-msis-hbcus" target="_blank" rel="noopener"
+>https://www.aboutamazon.com/news/aws/aws-launches-new-ai-program-for-community-colleges-msis-hbcus&lt;/a>&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>&lt;a class="link" href="https://venturebeat.com/ai/ai-will-thrive-in-3-areas-despite-economic-conditions-experts-say/" target="_blank" rel="noopener"
+>https://venturebeat.com/ai/ai-will-thrive-in-3-areas-despite-economic-conditions-experts-say/&lt;/a>&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;a class="link" href="https://www.weforum.org/agenda/2022/11/how-ai-can-help-climate-migration/" target="_blank" rel="noopener"
+>https://www.weforum.org/agenda/2022/11/how-ai-can-help-climate-migration/&lt;/a>&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>&lt;a class="link" href="https://www.sciencedaily.com/releases/2022/11/221123114212.htm" target="_blank" rel="noopener"
+>https://www.sciencedaily.com/releases/2022/11/221123114212.htm&lt;/a>&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>This Month in AI - October 2022</title><link>https://mind-benders.github.io/p/tmai-october-2022/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://mind-benders.github.io/p/tmai-october-2022/</guid><description>&lt;img src="https://mind-benders.github.io/p/tmai-october-2022/Poster.jpg" alt="Featured image of post This Month in AI - October 2022" />&lt;h2 id="an-ai-that-can-help-to-design-new-proteins-and-to-unleash-new-cures-and-accouterments-1">An AI that can help to design new proteins and to unleash new cures and accouterments. &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h2>
 &lt;p>A group of experimenters from the University of Washington described a new tool ProteinMPNN, which could help experimenters discover preliminarily unknown proteins and design entirely new bones. It will open an entire new macrocosm of possible proteins for experimenters to design from scratch.&lt;/p>
 &lt;p>
 &lt;figure>
