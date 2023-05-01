@@ -264,7 +264,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/mbc1.jpeg",
+    image: "mbc1.jpeg",
     linkedin: "https://www.linkedin.com/in/cdhiraj40/",
   },
   {
@@ -306,7 +306,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: "/mbc3.jpeg",
+    image: "mbc3.jpeg",
     linkedin: "https://www.linkedin.com/in/asjad2001/",
   },
   {
@@ -327,7 +327,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/mbc4.jpeg",
+    image: "mbc4.jpeg",
     linkedin: "https://www.linkedin.com/in/khushishah1/",
   },
   {
@@ -348,7 +348,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/mbc5.jpeg",
+    image: "mbc5.jpeg",
     linkedin: "https://www.linkedin.com/in/keval-waghate-4254a0216/",
   },
   {
@@ -369,7 +369,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: "/mbc6.jpeg",
+    image: "mbc6.jpeg",
     linkedin: "https://www.linkedin.com/in/debarshi-chanda/",
   },
   {
@@ -390,7 +390,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: "/mbc7.jpeg",
+    image: "mbc7.jpeg",
     linkedin: "https://www.linkedin.com/in/somesh-9188/",
   },
   {
@@ -411,7 +411,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/mbc8.jpeg",
+    image: "mbc8.jpeg",
     linkedin: "https://www.linkedin.com/in/hrishikesh-yadav-aa748121a/",
   },
   {
@@ -432,7 +432,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/mbc9.jpeg",
+    image: "mbc9.jpeg",
     linkedin: "https://www.linkedin.com/posts/mind-benders-tcet_deeplearninghackathon-machinelearning-artificialintelligence-activity-7055346293618933760-Gtg1?utm_source=share&utm_medium=member_desktop",
   },
 ];

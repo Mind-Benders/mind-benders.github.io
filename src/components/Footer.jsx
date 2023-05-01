@@ -1,4 +1,8 @@
 import React from "react";
+import linkedinurl from "/linkedin.png"
+import weburl from "/websitelink.png"
+import twitterurl from "/twitter.png"
+import instagramurl from "/instagram.png"
 
 const Footer = () => {
 
@@ -14,7 +18,7 @@ const Footer = () => {
                 className='darkblue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
                 >
                     <img
-                        src="/websitelink.png"
+                        src={weburl}
                         alt='source code'
                         className='w-1/2 h-1/2 object-contain'
                     />
@@ -24,7 +28,7 @@ const Footer = () => {
                 className='darkblue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
                 >
                     <img
-                        src="/twitter.png"
+                        src={twitterurl}
                         alt='source code'
                         className='w-1/2 h-1/2 object-contain'
                     />
@@ -34,7 +38,7 @@ const Footer = () => {
                 className='darkblue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
                 >
                     <img
-                        src="/instagram.png"
+                        src={instagramurl}
                         alt='source code'
                         className='w-1/2 h-1/2 object-contain'
                     />
@@ -44,7 +48,7 @@ const Footer = () => {
                 className='darkblue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
                 >
                     <img
-                        src="/linkedin.png"
+                        src={linkedinurl}
                         alt='source code'
                         className='w-1/2 h-1/2 object-contain'
                     />

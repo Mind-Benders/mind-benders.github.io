@@ -33,8 +33,8 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build --base=/website/",
     "preview": "vite preview"
   },
   "eslintConfig": {

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import linkedinurl from "/linkedin.png"
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -43,7 +44,7 @@ const TeamMemberCard = ({
               className='blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src="/linkedin.png"
+                src={linkedinurl}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
