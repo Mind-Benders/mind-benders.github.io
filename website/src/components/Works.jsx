@@ -67,11 +67,12 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Our work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Events.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Recent Events.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -87,7 +88,7 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
+        {[...projects].reverse().slice(0,6).map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
