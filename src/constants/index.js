@@ -2,27 +2,15 @@ import {
   mobile,
   backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  threejs,
+  web
 } from "../assets";
 
 export const navLinks = [
+  {
+    id: "recent-blog",
+    title: "Recent Blogs",
+    link: "https://mind-benders.github.io/categories/blog/",
+  },
   {
     id: "about",
     title: "About",
@@ -57,116 +45,6 @@ const services = [
   {
     title: "Content Creating",
     icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
-const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
   },
 ];
 
@@ -265,7 +143,7 @@ const projects = [
       },
     ],
     image: "mbc1.jpeg",
-    linkedin: "https://www.linkedin.com/in/cdhiraj40/",
+    link: ""
   },
   {
     name: "CP Workshop",
@@ -285,8 +163,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "mbc2.jpeg",
-    linkedin: "https://www.linkedin.com/in/jwala-chorasiya-34048b1b2"
+    image: "mbc2.jpeg"
   },
   {
     name: "MLH Fellowship Seminar",
@@ -306,8 +183,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: "mbc3.jpeg",
-    linkedin: "https://www.linkedin.com/in/asjad2001/",
+    image: "mbc3.jpeg"
   },
   {
     name: "Kaggle Expert Session",
@@ -327,8 +203,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "mbc4.jpeg",
-    linkedin: "https://www.linkedin.com/in/khushishah1/",
+    image: "mbc4.jpeg"
   },
   {
     name: "Git & GitHub Workshop - II",
@@ -348,8 +223,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "mbc5.jpeg",
-    linkedin: "https://www.linkedin.com/in/keval-waghate-4254a0216/",
+    image: "mbc5.jpeg"
   },
   {
     name: "Kaggle Competitions Workshop",
@@ -369,8 +243,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: "mbc6.jpeg",
-    linkedin: "https://www.linkedin.com/in/debarshi-chanda/",
+    image: "mbc6.jpeg"
   },
   {
     name: "Kaggle Notebooks & Discussion",
@@ -390,8 +263,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    image: "mbc7.jpeg",
-    linkedin: "https://www.linkedin.com/in/somesh-9188/",
+    image: "mbc7.jpeg"
   },
   {
     name: "EDA Workshop",
@@ -411,8 +283,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "mbc8.jpeg",
-    linkedin: "https://www.linkedin.com/in/hrishikesh-yadav-aa748121a/",
+    image: "mbc8.jpeg"
   },
   {
     name: "DL Hackathon",
@@ -432,9 +303,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "mbc9.jpeg",
-    linkedin: "https://www.linkedin.com/posts/mind-benders-tcet_deeplearninghackathon-machinelearning-artificialintelligence-activity-7055346293618933760-Gtg1?utm_source=share&utm_medium=member_desktop",
+    image: "mbc9.jpeg"
   },
 ];
 
-export { services, technologies, experiences, teammembers, projects };
+export { services, teammembers, projects };

@@ -49,21 +49,26 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-            <li
-              className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
-            >
-              <a href="https://mind-benders.github.io/p/tmai-march-2023/">Recent Blog</a>
-            </li>
           {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
+            nav.id==="recent-blog"? (
+              <li
+                key={nav.id}
+                className="hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
+                onClick={() => window.open(nav.link, "_blank")}
+              >
+                <a href="/">{nav.title}</a>
+              </li>
+            ) : (
+              <li
+                key={nav.id}
+                className={`${
+                  active === nav.title ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(nav.title)}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            )
           ))}
         </ul>
 
@@ -82,18 +87,31 @@ const Navbar = () => {
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
-                <li
-                  key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
-                  }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
-                >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
-                </li>
+                nav.id==="recent-blog"? (
+                  <li
+                    key={nav.id}
+                    className="font-poppins font-medium cursor-pointer text-[16px] text-secondary"
+                    onClick={() => {
+                      setToggle(!toggle);
+                      window.open(nav.link, "_blank")
+                    }}
+                  >
+                    <a href="/">{nav.title}</a>
+                  </li>
+                ) : (
+                  <li
+                    key={nav.id}
+                    className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                      active === nav.title ? "text-white" : "text-secondary"
+                    }`}
+                    onClick={() => {
+                      setToggle(!toggle);
+                      setActive(nav.title);
+                    }}
+                  >
+                    <a href={`#${nav.id}`}>{nav.title}</a>
+                  </li>
+                )
               ))}
             </ul>
           </div>
