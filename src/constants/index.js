@@ -35,15 +35,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Machine Learning",
+    title: "Artificial Intelligence",
     icon: mobile,
   },
   {
-    title: "Deep Learning",
+    title: "Machine Learning",
     icon: backend,
   },
   {
-    title: "Content Creating",
+    title: "Deep Learning",
     icon: creator,
   },
 ];

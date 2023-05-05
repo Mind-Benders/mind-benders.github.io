@@ -37,6 +37,11 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.primary-gradient {
+  background: rgb(5, 8, 22);
+  background: linear-gradient(to right, rgb(63 70 102), rgb(5 8 22));
+}
+
 .blue-gradient {
   background: rgb(0, 94, 208); /* fallback for old browsers */
   background: -webkit-linear-gradient(
