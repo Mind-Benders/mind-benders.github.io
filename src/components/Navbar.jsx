@@ -54,9 +54,8 @@ const Navbar = () => {
               <li
                 key={nav.id}
                 className="hover:text-white text-[18px] font-medium cursor-pointer text-secondary"
-                onClick={() => window.open(nav.link, "_blank")}
               >
-                <a href="/">{nav.title}</a>
+                <a href={nav.link}>{nav.title}</a>
               </li>
             ) : (
               <li
@@ -93,10 +92,9 @@ const Navbar = () => {
                     className="font-poppins font-medium cursor-pointer text-[16px] text-secondary"
                     onClick={() => {
                       setToggle(!toggle);
-                      window.open(nav.link, "_blank")
                     }}
                   >
-                    <a href="/">{nav.title}</a>
+                    <a href={nav.link}>{nav.title}</a>
                   </li>
                 ) : (
                   <li

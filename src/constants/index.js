@@ -123,7 +123,7 @@ const teammembers = [
   },
 ];
 
-const projects = [
+const events = [
   {
     name: "Git & GitHub Workshop",
     description:
@@ -142,8 +142,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "mbc1.jpeg",
-    link: ""
+    image: "mbc1.jpeg"
   },
   {
     name: "CP Workshop",
@@ -307,4 +306,4 @@ const projects = [
   },
 ];
 
-export { services, teammembers, projects };
+export { services, teammembers, events };

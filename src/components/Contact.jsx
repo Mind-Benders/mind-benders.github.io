@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-// import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -39,43 +38,6 @@ const Contact = () => {
         message: "",
       });
     }, 2000);
-    // emailjs
-    //   .send(
-    //     import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-    //     import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-    //     {
-    //       from_name: form.name,
-    //       to_name: "Mind Benders Club",
-    //       from_email: form.email,
-    //       to_email: "tect.mindbenders@gmail.com",
-    //       message: form.message,
-    //     },
-    //     import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-    //   )
-    //   .then(
-    //     () => {
-    //       setLoading(false);
-    //       alert("Thank you. We will get back to you as soon as possible.");
-
-    //       setForm({
-    //         name: "",
-    //         email: "",
-    //         message: "",
-    //       });
-    //     },
-    //     (error) => {
-    //       setLoading(false);
-    //       console.error(error);
-
-    //       alert("Ahh, something went wrong. Please try again.");
-    //     }
-    //   )
-    //   .catch(() => {
-    //     setLoading(false);
-    //     console.error(error);
-
-    //     alert("Ahh, something went wrong. Please try again.");
-    //   });
   };
 
   return (

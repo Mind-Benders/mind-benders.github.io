@@ -1,14 +1,13 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import linkedinurl from "/linkedin.png"
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { events } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({
+const EventCard = ({
   index,
   name,
   description,
@@ -75,8 +74,8 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7 justify-center'>
-        {[...projects].reverse().slice(0,6).map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {[...events].reverse().slice(0,6).map((event, index) => (
+          <EventCard key={`project-${index}`} index={index} {...event} />
         ))}
       </div>
     </>
