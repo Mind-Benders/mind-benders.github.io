@@ -9,7 +9,7 @@ export const navLinks = [
   {
     id: "recent-blog",
     title: "Recent Blogs",
-    link: "https://mind-benders.github.io/categories/blog/",
+    link: "https://mind-benders.github.io/blog/",
   },
   {
     id: "about",
