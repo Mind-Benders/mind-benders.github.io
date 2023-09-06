@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className='inset-0 flex justify-end m-3'>
                 <div
-                onClick={() => window.open("https://mind-benders.github.io/", "_blank")}
+                onClick={() => window.open("https://github.com/tcet-opensource/mindbenders-web", "_blank")}
                 className='darkblue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
                 >
                     <img
