@@ -51,7 +51,7 @@ const services = [
 const teammembers = [
   {
     name: "Kunal Agrawal",
-    designation: "President",
+    designation: "President.",
     image: "team-member1.jpg",
     linkedin: "https://www.linkedin.com/in/kunalragrawal/",
   },
