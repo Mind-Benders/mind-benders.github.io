@@ -55,36 +55,33 @@ const TeamMemberCard = ({
   </motion.div>
 );
 
+
 const Team = () => {
-  const [isCurrentTeam, setIsCurrentTeam] = React.useState(true);
   const [currentTeam, setCurrentTeam] = React.useState(newteammembers);
-  const [teamTitle, setTeamTitle] = React.useState('Current Year Team Members');
 
   const switchTeam = () => {
-    setIsCurrentTeam(!isCurrentTeam);
+    setCurrentTeam(currentTeam === newteammembers ? oldteammembers : newteammembers);
   };
-
-  React.useEffect(() => {
-    setCurrentTeam(isCurrentTeam ? newteammembers : oldteammembers);
-    setTeamTitle(isCurrentTeam ? 'Current Year Team Members' : 'Past Year Team Members');
-  }, [isCurrentTeam]);
 
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Our Team</p>
-          <h2 className={styles.sectionHeadText}>{teamTitle}</h2>
+          <h2 className={styles.sectionHeadText}>Team Members.</h2>
           <button onClick={switchTeam}>Switch Team</button>
+          {currentTeam.map(member => (
+            <div key={member.name}>
+              <img src={member.image} alt={member.name} />
+              <h2>{member.name}</h2>
+              <p>{member.designation}</p>
+              <a href={member.linkedin}>LinkedIn</a>
+            </div>
+          ))}
         </motion.div>
-      </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
-        {currentTeam.map((member, index) => (
-          <TeamMemberCard key={member.name} index={index} {...member} />
-        ))}
       </div>
     </div>
   );
 };
 
-export default SectionWrapper(Team, "team");
+export default Team;
