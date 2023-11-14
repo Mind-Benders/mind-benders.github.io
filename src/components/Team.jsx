@@ -55,16 +55,19 @@ const TeamMemberCard = ({
   </motion.div>
 );
 
-
 const Team = () => {
   const [isCurrentTeam, setIsCurrentTeam] = React.useState(true);
+  const [currentTeam, setCurrentTeam] = React.useState(newteammembers);
+  const [teamTitle, setTeamTitle] = React.useState('Current Year Team Members');
 
   const switchTeam = () => {
     setIsCurrentTeam(!isCurrentTeam);
   };
 
-  const currentTeam = isCurrentTeam ? newteammembers : oldteammembers;
-  const teamTitle = isCurrentTeam ? 'Current Year Team Members' : 'Past Year Team Members';
+  React.useEffect(() => {
+    setCurrentTeam(isCurrentTeam ? newteammembers : oldteammembers);
+    setTeamTitle(isCurrentTeam ? 'Current Year Team Members' : 'Past Year Team Members');
+  }, [isCurrentTeam]);
 
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
