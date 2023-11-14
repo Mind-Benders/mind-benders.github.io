@@ -50,7 +50,7 @@ const services = [
 
 const newteammembers = [
   {
-    name: "Kunal Agrawal",
+    name: "Sharukhali Syed",
     designation: "President.",
     image: "team-member1.jpg",
     linkedin: "https://www.linkedin.com/in/kunalragrawal/",
