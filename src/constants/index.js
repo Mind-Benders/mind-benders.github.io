@@ -48,7 +48,81 @@ const services = [
   },
 ];
 
-const teammembers = [
+const newteammembers = [
+  {
+    name: "Kunal Agrawal",
+    designation: "President.",
+    image: "team-member1.jpg",
+    linkedin: "https://www.linkedin.com/in/kunalragrawal/",
+  },
+  {
+    name: "Aman Tiwari",
+    designation: "Vice-President",
+    image: "team-member2.jpeg",
+    linkedin: "https://www.linkedin.com/in/aman-tiwari-603245200/",
+  },
+  {
+    name: "Ganesh Utla",
+    designation: "Secretary",
+    image: "team-member3.jpg",
+    linkedin: "https://www.linkedin.com/in/ganesh-utla-888abc/",
+  },
+  {
+    name: "Vaibhav Ashta",
+    designation: "Technical Head",
+    image: "team-member4.jpeg",
+    linkedin: "https://www.linkedin.com/in/vaibhav-ashta/",
+  },
+  {
+    name: "Lavanya Bhat",
+    designation: "Marketing Head",
+    image: "team-member5.jpeg",
+    linkedin: "https://www.linkedin.com/in/lavanya-bhat-a73868205/",
+  },
+  {
+    name: "Abhir Iyer",
+    designation: "Social Media Head",
+    image: "team-member6.jpg",
+    linkedin: "https://www.linkedin.com/in/abhir-iyer/",
+  },
+  {
+    name: "Vishal Gupta",
+    designation: "Event Manager",
+    image: "team-member7.jpg",
+    linkedin: "https://www.linkedin.com/in/vishal-gupta-403132209/",
+  },
+  {
+    name: "Deexith Madas",
+    designation: "Treasurer",
+    image: "team-member8.jpg",
+    linkedin: "https://www.linkedin.com/in/deexith-madas-625283208/",
+  },
+  {
+    name: "Keval Waghate",
+    designation: "Publication Head",
+    image: "team-member9.jpeg",
+    linkedin: "https://www.linkedin.com/in/keval-waghate-4254a0216/",
+  },
+  {
+    name: "Sakshi Maurya",
+    designation: "Jt Marketing Head",
+    image: "team-member10.jpg",
+    linkedin: "https://www.linkedin.com/in/sakshi-maurya-a495a7216/",
+  },
+  {
+    name: "Ananta Pandey",
+    designation: "Jt Publication Head",
+    image: "team-member11.jpg",
+    linkedin: "https://www.linkedin.com/in/ananta-s-k-149aa5264/",
+  },
+  {
+    name: "Vrushali Sandam",
+    designation: "Jt Technical Head",
+    image: "team-member12.jpg",
+    linkedin: "https://www.linkedin.com/in/vrushali-sandam-283054253/",
+  },
+];
+const oldteammembers = [
   {
     name: "Kunal Agrawal",
     designation: "President.",
@@ -306,4 +380,4 @@ const events = [
   },
 ];
 
-export { services, teammembers, events };
+export { services, newteammembers,oldteammembers, events };
