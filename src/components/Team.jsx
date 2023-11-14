@@ -60,13 +60,24 @@ const Team = () => {
   const [currentTeam, setCurrentTeam] = React.useState(newteammembers);
   const [teamTitle, setTeamTitle] = React.useState('Year 23-24');
 
-  const switchTeam = () => {
-    if (currentTeam === newteammembers) {
-      setCurrentTeam(oldteammembers);
-      setTeamTitle('Year 22-23');
-    } else {
-      setCurrentTeam(newteammembers);
-      setTeamTitle('Year 23-24');
+  const handleSelect = (event) => {
+    switch (event.target.value) {
+      case '22':
+        setCurrentTeam(oldteammembers);
+        setTeamTitle('Year 22-23');
+        break;
+      case '23':
+        setCurrentTeam(newteammembers);
+        setTeamTitle('Year 23-24');
+        break;
+      /*case '24':
+        setCurrentTeam(team24);
+        setTeamTitle('Year 24-25');
+        break;
+      default:
+        setCurrentTeam(team22);
+        setTeamTitle('Year 22-23');
+        */
     }
   };
 
@@ -76,10 +87,12 @@ const Team = () => {
         <motion.div variants={textVariant()} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <p className={styles.sectionSubText}>Our Team</p>
           <p className={styles.sectionSubText}>{teamTitle}</p>
-          <button onClick={switchTeam}>Switch</button>
+          <select onChange={handleSelect}>
+            <option value="22">2022</option>
+            <option value="23">2023</option>
+          </select>
         </motion.div>
-        <br />
-        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
           {currentTeam.map((member, index) => (
             <TeamMemberCard key={member.name} index={index} {...member} />
