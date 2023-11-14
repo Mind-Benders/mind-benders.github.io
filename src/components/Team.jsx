@@ -57,18 +57,14 @@ const TeamMemberCard = ({
 
 
 const Team = () => {
-  const [currentTeam, setCurrentTeam] = React.useState(newteammembers);
-  const [teamTitle, setTeamTitle] = React.useState('Current Year Team Members');
+  const [isCurrentTeam, setIsCurrentTeam] = React.useState(true);
 
   const switchTeam = () => {
-    if (currentTeam === newteammembers) {
-      setCurrentTeam(oldteammembers);
-      setTeamTitle('Past Year Team Members');
-    } else {
-      setCurrentTeam(newteammembers);
-      setTeamTitle('Current Year Team Members');
-    }
+    setIsCurrentTeam(!isCurrentTeam);
   };
+
+  const currentTeam = isCurrentTeam ? newteammembers : oldteammembers;
+  const teamTitle = isCurrentTeam ? 'Current Year Team Members' : 'Past Year Team Members';
 
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
