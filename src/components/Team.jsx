@@ -68,15 +68,15 @@ const Team = () => {
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Our Team</p>
-          <h2 className={styles.sectionHeadText}>Team Members.</h2>
-          <button onClick={switchTeam}>Switch Team</button>
-          {
+          <h2 className={styles.sectionHeadText}></h2>
+          <button onClick={switchTeam}>Switch</button>
+        
             <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
             {currentTeam.map((member, index) => (
               <TeamMemberCard key={member.name} index={index} {...member} />
             ))}
           </div>
-         }
+         
         </motion.div>
       </div>
     </div>
