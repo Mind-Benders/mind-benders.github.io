@@ -79,7 +79,7 @@ const Team = () => {
           <button onClick={switchTeam}>Switch</button>
         </motion.div>
         <br />
-        <br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br />
         <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
           {currentTeam.map((member, index) => (
             <TeamMemberCard key={member.name} index={index} {...member} />
