@@ -75,7 +75,7 @@ const Team = () => {
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Our Team</p>
-          <p className={styles.sectionHeadText}>{teamTitle}</p>
+          <p className={styles.sectionSubText}>{teamTitle}</p>
           <button onClick={switchTeam}>Switch</button>
         
             <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
