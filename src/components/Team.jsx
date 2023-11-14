@@ -73,21 +73,21 @@ const Team = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant()} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <p className={styles.sectionSubText}>Our Team</p>
           <p className={styles.sectionSubText}>{teamTitle}</p>
           <button onClick={switchTeam}>Switch</button>
-        
-            <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
-            {currentTeam.map((member, index) => (
-              <TeamMemberCard key={member.name} index={index} {...member} />
-            ))}
-          </div>
-         
+          <br/>
         </motion.div>
+        <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
+          {currentTeam.map((member, index) => (
+            <TeamMemberCard key={member.name} index={index} {...member} />
+          ))}
+        </div>
       </div>
     </div>
   );
-};
+  
+  export default Team;
 
 export default Team;
