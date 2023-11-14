@@ -86,13 +86,16 @@ const Team = () => {
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <p className={styles.sectionSubText}>Our Team</p>
+          <br />
           <p className={styles.sectionSubText}>{teamTitle}</p>
+          <br />
           <select onChange={handleSelect}>
-            <option value="22">2022</option>
-            <option value="23">2023</option>
+            <option value="23">Year 23-24</option>
+            <option value="22">Year 22-23</option>
+            
           </select>
         </motion.div>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br />
         <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
           {currentTeam.map((member, index) => (
             <TeamMemberCard key={member.name} index={index} {...member} />
