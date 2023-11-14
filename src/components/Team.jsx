@@ -77,18 +77,15 @@ const Team = () => {
           <p className={styles.sectionSubText}>Our Team</p>
           <h2 className={styles.sectionHeadText}>{teamTitle}</h2>
           <button onClick={switchTeam}>Switch Team</button>
-          {currentTeam.map(member => (
-            <div key={member.name}>
-              <img src={member.image} alt={member.name} />
-              <h2>{member.name}</h2>
-              <p>{member.designation}</p>
-              <a href={member.linkedin}>LinkedIn</a>
-            </div>
-          ))}
         </motion.div>
+      </div>
+      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
+        {currentTeam.map((member, index) => (
+          <TeamMemberCard key={member.name} index={index} {...member} />
+        ))}
       </div>
     </div>
   );
 };
 
-export default Team;
+export default SectionWrapper(Team, "team");
