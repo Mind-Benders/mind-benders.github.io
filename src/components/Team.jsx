@@ -77,8 +77,9 @@ const Team = () => {
           <p className={styles.sectionSubText}>Our Team</p>
           <p className={styles.sectionSubText}>{teamTitle}</p>
           <button onClick={switchTeam}>Switch</button>
-          <br/>
         </motion.div>
+        <br />
+        <br />
         <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
           {currentTeam.map((member, index) => (
             <TeamMemberCard key={member.name} index={index} {...member} />
