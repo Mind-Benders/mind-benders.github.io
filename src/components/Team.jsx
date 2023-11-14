@@ -58,7 +58,7 @@ const TeamMemberCard = ({
 
 const Team = () => {
   const [currentTeam, setCurrentTeam] = React.useState(newteammembers);
-  const [teamTitle, setTeamTitle] = React.useState('Current Year Team Members');
+  const [teamTitle, setTeamTitle] = React.useState('Year 23-24');
 
   const switchTeam = () => {
     if (currentTeam === newteammembers) {
@@ -75,7 +75,7 @@ const Team = () => {
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Our Team</p>
-          <h3 className={styles.sectionHeadText}>{teamTitle}</h3>
+          <h5 className={styles.sectionHeadText}>{teamTitle}</h5>
           <button onClick={switchTeam}>Switch</button>
         
             <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
