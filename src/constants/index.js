@@ -113,7 +113,7 @@ const newteammembers = [
   {
     name: "Ritika Lath",
     designation: "Jt Marketing Head",
-    image: "team-member-23-11.heic",
+    image: "team-member-23-11.png",
     linkedin: "https://www.linkedin.com/in/ritika-lath-706500273/",
   },
 ];
