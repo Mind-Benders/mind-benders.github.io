@@ -51,15 +51,21 @@ const services = [
 const newteammembers = [
   {
     name: "Sharukhali Syed",
-    designation: "President.",
-    image: "team-member-23-1.png",
+    designation: "President",
+    image: "team-member-23-1-1.png",
     linkedin: "https://www.linkedin.com/in/sharukhali-farookali-naziyabegum-syed-2817bb272/",
+  },
+  {
+    name: "Siddhant Shedge",
+    designation: "Vice-President",
+    image: "team-member-23-2.jpg",
+    linkedin: "http://www.linkedin.com/in/siddhantshedge",
   },
   {
     name: "Shivsagar Mishra",
     designation: "Vice-President",
-    image: "team-member-23-2.jpg",
-    linkedin: "http://www.linkedin.com/in/shivsagar-mishra/",
+    image: "team-member-23-2-1.jpg",
+    linkedin: "https://www.linkedin.com/in/shivsagar-mishra",
   },
   {
     name: "Sakshi Maurya",
@@ -76,7 +82,7 @@ const newteammembers = [
   {
     name: "Kanchan Singh",
     designation: "Marketing Head",
-    image: "team-member-23-5.jpg",
+    image: "team-member-23-5.png",
     linkedin: "https://www.linkedin.com/in/kanchan-singh-393a26280/",
   },
   {
@@ -414,6 +420,50 @@ const events = [
       },
     ],
     image: "mbc11.jpeg"
+  },
+  {
+    name: "Building End to End ML Project",
+    description:
+      "Our speaker Ishan Shrivastava conducted a captivating webinar on this topic. Participants learned how to apply theoretical knowledge and practical tools to create impactful ML solutions. The session was a mix of lectures and hands-on exercises, ensuring participants gained valuable insights and experience in the complex field of machine learning along with deployment",
+    tags: [
+      {
+        name: "streamlit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "kaggle",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ML-Ops",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "mbc12.jpg"
+  },
+  {
+    name: "Relational Networks in Machine Learning",
+    description:
+      "Participants explored relational reasoning in ML, focusing on innovative solutions like RN architecture & utilization of datasets like CLEVR. Attendees gained insights into the challenges in relational reasoning tasks and limitations of traditional approaches. Emphasis on Visual Question Answering highlighted importance of flexible relational reasoning within neural networks.",
+    tags: [
+      {
+        name: "Relational reasoning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "neural networks",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Visual Question Answering",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CLEVR",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "mbc13.jpg"
   },
 ];
 
