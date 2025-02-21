@@ -5,7 +5,7 @@ import linkedinurl from "/linkedin.png"
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { newteammembers,oldteammembers } from "../constants";
+import { team2024, newteammembers, oldteammembers } from "../constants";
 
 const TeamMemberCard = ({
   index,
@@ -57,27 +57,27 @@ const TeamMemberCard = ({
 
 
 const Team = () => {
-  const [currentTeam, setCurrentTeam] = React.useState(newteammembers);
-  const [teamTitle, setTeamTitle] = React.useState('Year 23-24');
+  const [currentTeam, setCurrentTeam] = React.useState(team2024);
+  const [setTeamTitle] = React.useState('Year 24-25');
 
   const handleSelect = (event) => {
     switch (event.target.value) {
       case '22':
-        setCurrentTeam(oldteammembers);
+        setCurrentTeam([...oldteammembers]);
         setTeamTitle('Year 22-23');
         break;
       case '23':
-        setCurrentTeam(newteammembers);
+        setCurrentTeam([...newteammembers]);
         setTeamTitle('Year 23-24');
         break;
-      /*case '24':
-        setCurrentTeam(team24);
+      case '24':
+        setCurrentTeam([...team2024]);
         setTeamTitle('Year 24-25');
         break;
-      default:
-        setCurrentTeam(team22);
-        setTeamTitle('Year 22-23');
-        */
+      /*default:
+        setCurrentTeam(oldteammembers);
+        setTeamTitle('Year 22-23');*/
+        
     }
   };
 
@@ -87,9 +87,9 @@ const Team = () => {
         <motion.div variants={textVariant()} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <p className={styles.sectionSubText}>Our Team</p>
           <br />
-          <p className={styles.sectionSubText}>{teamTitle}</p>
-          <br />
-          <select onChange={handleSelect}>
+
+          <select onChange={handleSelect} className="p-2 rounded-md bg-gray-800 text-white">
+            <option value="24">Year 24-25</option>
             <option value="23">Year 23-24</option>
             <option value="22">Year 22-23</option>
             

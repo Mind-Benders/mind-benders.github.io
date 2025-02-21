@@ -48,6 +48,101 @@ const services = [
   },
 ];
 
+
+const team2024 = [
+  {
+    name: "Aisha Shaikh",
+    designation: "President",
+    image: "team2024-president.JPG",
+    linkedin: "https://www.linkedin.com/in/aisha-shaikh-160965266/",
+  },
+  {
+    name: "Pawan Bisht",
+    designation: "Vice-President",
+    image: "team2024-vp.JPG",
+    linkedin: "https://www.linkedin.com/in/pawan-bisht-240835248/",
+  },
+  {
+    name: "Arya Mane",
+    designation: "Secretary",
+    image: "team2024-secratary.JPG",
+    linkedin: "https://www.linkedin.com/in/arya-mane-555b0b256/",
+  },
+  {
+    name: "Sanidhya Sharma",
+    designation: "Technical Head",
+    image: "team2024-Tech.JPG",
+    linkedin: "https://www.linkedin.com/in/sanidhya-sharma-19946b253/",
+  },
+  {
+    name: "Nandini Vishwakarma",
+    designation: "Marketing Head",
+    image: "team2024-Marketing.JPG",
+    linkedin: "https://www.linkedin.com/in/nandini-vishwakarma-084264281/",
+  },
+  {
+    name: "Deepti Singh",
+    designation: "Open Source Head",
+    image: "team2024-Opensource.JPG",
+    linkedin: "https://www.linkedin.com/in/deeptisingh18/",
+  },
+
+  {
+    name: "Piyush Das",
+    designation: "Event Manager",
+    image: "team2024-Event.JPG",
+    linkedin: "https://www.linkedin.com/in/daspiyush2004/",
+  },
+  {
+    name: "Kriva Shah",
+    designation: "Publication Head",
+    image: "team2024-Pub.JPG",
+    linkedin: "https://www.linkedin.com/in/kriva-shah/",
+  },
+  {
+    name: "Shubham Bari",
+    designation: "Jt Publication Head",
+    image: "team2024-Jt.Pub.JPG",
+    linkedin: "https://www.linkedin.com/in/shubham-bari-09442a280/",
+  },
+  {
+    name: "Shravani Rivankar",
+    designation: "Jt Technical Head",
+    image: "team2024-Jt.Tech.JPG",
+    linkedin: "https://www.linkedin.com/in/shravani-rivankar/",
+  },
+  {
+    name: "Swamini Yesade",
+    designation: "Jt Marketing Head",
+    image: "team2024-Jt.Mark1.JPG",
+    linkedin: "https://www.linkedin.com/in/swamini-yesade-0017c/",
+  },
+  {
+    name: "Tripti Shetty",
+    designation: "Jt Marketing Head",
+    image: "team2024-Jt.Mark2.JPG",
+    linkedin: "https://www.linkedin.com/in/tripti-shetty-a942a327b/",
+  },
+  {
+    name: "Vedangi Pathre",
+    designation: "Outreach Head",
+    image: "team2024-Outreach.JPG",
+    linkedin: "https://www.linkedin.com/in/vedangipathre/",
+  },
+  {
+    name: "Siddhi Naik",
+    designation: "Creative Head",
+    image: "team2024-Creative.JPG",
+    linkedin: "https://www.linkedin.com/in/siddhi-naik01/",
+  },
+  {
+    name: "Ayesha Bijnori",
+    designation: "Social Media Head",
+    image: "team2024-Social.JPG",
+    linkedin: "https://www.linkedin.com/in/ayesha-bijnori-1a3812288/",
+  },
+];
+
 const newteammembers = [
   {
     name: "Sharukhali Syed",
@@ -467,4 +562,4 @@ const events = [
   },
 ];
 
-export { services, newteammembers,oldteammembers, events };
+export { services, team2024, newteammembers,oldteammembers, events };
