@@ -35,6 +35,12 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: './dist'
+      - name: Configure Pages
+        uses: actions/configure-pages@v3
       - name: Install dependencies
         run: npm install
       - name: Build
