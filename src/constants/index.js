@@ -48,6 +48,101 @@ const services = [
   },
 ];
 
+
+const team2024 = [
+  {
+    name: "Aisha Shaikh",
+    designation: "President",
+    image: "team2024-president.JPG",
+    linkedin: "https://www.linkedin.com/in/aisha-shaikh-160965266/",
+  },
+  {
+    name: "Pawan Bisht",
+    designation: "Vice-President",
+    image: "team2024-vp.JPG",
+    linkedin: "https://www.linkedin.com/in/pawan-bisht-240835248/",
+  },
+  {
+    name: "Arya Mane",
+    designation: "Secretary",
+    image: "team2024-secratary.JPG",
+    linkedin: "https://www.linkedin.com/in/arya-mane-555b0b256/",
+  },
+  {
+    name: "Sanidhya Sharma",
+    designation: "Technical Head",
+    image: "team2024-Tech.JPG",
+    linkedin: "https://www.linkedin.com/in/sanidhya-sharma-19946b253/",
+  },
+  {
+    name: "Nandini Vishwakarma",
+    designation: "Marketing Head",
+    image: "team2024-Marketing.JPG",
+    linkedin: "https://www.linkedin.com/in/nandini-vishwakarma-084264281/",
+  },
+  {
+    name: "Deepti Singh",
+    designation: "Open Source Head",
+    image: "team2024-Opensource.JPG",
+    linkedin: "https://www.linkedin.com/in/deeptisingh18/",
+  },
+
+  {
+    name: "Piyush Das",
+    designation: "Event Manager",
+    image: "team2024-Event.JPG",
+    linkedin: "https://www.linkedin.com/in/daspiyush2004/",
+  },
+  {
+    name: "Kriva Shah",
+    designation: "Publication Head",
+    image: "team2024-Pub.JPG",
+    linkedin: "https://www.linkedin.com/in/kriva-shah/",
+  },
+  {
+    name: "Shubham Bari",
+    designation: "Jt Publication Head",
+    image: "team2024-Jt.Pub.JPG",
+    linkedin: "https://www.linkedin.com/in/shubham-bari-09442a280/",
+  },
+  {
+    name: "Shravani Rivankar",
+    designation: "Jt Technical Head",
+    image: "team2024-Jt.Tech.JPG",
+    linkedin: "https://www.linkedin.com/in/shravani-rivankar/",
+  },
+  {
+    name: "Swamini Yesade",
+    designation: "Jt Marketing Head",
+    image: "team2024-Jt.Mark1.JPG",
+    linkedin: "https://www.linkedin.com/in/swamini-yesade-0017c/",
+  },
+  {
+    name: "Tripti Shetty",
+    designation: "Jt Marketing Head",
+    image: "team2024-Jt.Mark2.JPG",
+    linkedin: "https://www.linkedin.com/in/tripti-shetty-a942a327b/",
+  },
+  {
+    name: "Vedangi Pathre",
+    designation: "Outreach Head",
+    image: "team2024-Outreach.JPG",
+    linkedin: "https://www.linkedin.com/in/vedangipathre/",
+  },
+  {
+    name: "Siddhi Naik",
+    designation: "Creative Head",
+    image: "team2024-Creative.JPG",
+    linkedin: "https://www.linkedin.com/in/siddhi-naik01/",
+  },
+  {
+    name: "Ayesha Bijnori",
+    designation: "Social Media Head",
+    image: "team2024-Social.JPG",
+    linkedin: "https://www.linkedin.com/in/ayesha-bijnori-1a3812288/",
+  },
+];
+
 const newteammembers = [
   {
     name: "Sharukhali Syed",
@@ -465,6 +560,94 @@ const events = [
     ],
     image: "mbc13.jpg"
   },
+  {
+    name: "A Roadmap To Master Data Science",
+    description:
+      "In this seminar, our speaker explained a complete roadmap to data science. He explained the difference between a data analyst and a data scientist. He also mentioned the tech stack required to pursue a career in this field. The speaker shared his journey and experience working in Data Science and why students must pursue it. He said how impactful data science is and that it will be a booming industry in the near future.",
+    tags: [
+      {
+        name: "Python Libraries",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web Scraping",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Frameworks",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "mbc14.jpg"
+  },
+  {
+    name: "How to Write a Research Paper",
+    description:
+      "Our speaker explained what resources one must use to write a good research paper. He shared his experience and the path that he followed. He also talked about his research internships that he has done abroad and his experience with them. He mentioned methods to approach foreign professors and the project that will help them stand out while looking for a research internship.",
+    tags: [
+      {
+        name: "MITACS-GRI, DAAD-WISE",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "research internships",
+        color: "green-text-gradient",
+      },
+      {
+        name: "grad school apps",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "mbc15.jpg"
+  },
+  {
+    name: "Getting Started With Langchain",
+    description:
+      "Our speaker explained the concept of Langchain, its importance and why it is used. The speaker mentioned how Langchain is used to build chatbots, connect LLMs to APIs, create agents etc. He explained why it is a booming technology and how he has studied and used them. He also mentioned the career prospects the participants can have if they thoroughly understand the concept and are willing to pursue a career in it.",
+    tags: [
+      {
+        name: "Machine Learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LLMs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "APIs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Chatbots",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "mbc16.jpg"
+  },
+  {
+    name: "Git and GitHub Workshop",
+    description:
+      "Our speaker talked about various commands and talked about their functionalities. Throughout the event we made sure the participants were kept engaged by performing various activities like making a repository and pushing basic codes on it through different branches so the speaker could get a clear idea if his explanation were getting across to the participants. All doubts of the participants were resolved by the speaker.",
+    tags: [
+      {
+        name: "Git",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Github",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Repository",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Version Control",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "mbc17.jpg"
+  },
 ];
 
-export { services, newteammembers,oldteammembers, events };
+export { services, team2024, newteammembers,oldteammembers, events };
