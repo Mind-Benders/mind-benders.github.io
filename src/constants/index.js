@@ -560,6 +560,94 @@ const events = [
     ],
     image: "mbc13.jpg"
   },
+  {
+    name: "A Roadmap To Master Data Science",
+    description:
+      "In this seminar, our speaker explained a complete roadmap to data science. He explained the difference between a data analyst and a data scientist. He also mentioned the tech stack required to pursue a career in this field. The speaker shared his journey and experience working in Data Science and why students must pursue it. He said how impactful data science is and that it will be a booming industry in the near future.",
+    tags: [
+      {
+        name: "Python Libraries",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web Scraping",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Frameworks",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "mbc14.jpg"
+  },
+  {
+    name: "How to Write a Research Paper",
+    description:
+      "Our speaker explained what resources one must use to write a good research paper. He shared his experience and the path that he followed. He also talked about his research internships that he has done abroad and his experience with them. He mentioned methods to approach foreign professors and the project that will help them stand out while looking for a research internship.",
+    tags: [
+      {
+        name: "MITACS-GRI, DAAD-WISE",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "research internships",
+        color: "green-text-gradient",
+      },
+      {
+        name: "grad school apps",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "mbc15.jpg"
+  },
+  {
+    name: "Getting Started With Langchain",
+    description:
+      "Our speaker explained the concept of Langchain, its importance and why it is used. The speaker mentioned how Langchain is used to build chatbots, connect LLMs to APIs, create agents etc. He explained why it is a booming technology and how he has studied and used them. He also mentioned the career prospects the participants can have if they thoroughly understand the concept and are willing to pursue a career in it.",
+    tags: [
+      {
+        name: "Machine Learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "LLMs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "APIs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Chatbots",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "mbc16.jpg"
+  },
+  {
+    name: "Git and GitHub Workshop",
+    description:
+      "Our speaker talked about various commands and talked about their functionalities. Throughout the event we made sure the participants were kept engaged by performing various activities like making a repository and pushing basic codes on it through different branches so the speaker could get a clear idea if his explanation were getting across to the participants. All doubts of the participants were resolved by the speaker.",
+    tags: [
+      {
+        name: "Git",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Github",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Repository",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Version Control",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "mbc17.jpg"
+  },
 ];
 
 export { services, team2024, newteammembers,oldteammembers, events };

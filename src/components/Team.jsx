@@ -1,109 +1,185 @@
-import React from "react";
-import { motion } from "framer-motion";
-import linkedinurl from "/linkedin.png"
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import linkedinurl from "/linkedin.png";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
 import { team2024, newteammembers, oldteammembers } from "../constants";
 
-const TeamMemberCard = ({
-  index,
-  name,
-  designation,
-  image,
-  linkedin,
-  instagram,
-}) => (
-  <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
-  >
-
-    <div className='mt-1'>
-      <img
-        src={image}
-        alt={`feedback_by-${name}`}
-        className='rounded-full object-cover'
-        style={{width: "100%", height: "100%", maxHeight: "240px", maxWidth: "240px"}}
-      />
-
-      <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
-          </p>
-          <p className='mt-1 text-secondary text-[12px]'>
-            {designation}
-          </p>
-        </div>
-
-        <div className='inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(linkedin, "_blank")}
-              className='blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={linkedinurl}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-        </div>
-      </div>
-    </div>
-  </motion.div>
+const TeamMemberCard = ({ name, designation, image, linkedin, cardColor, index }) => (
+    <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: index * 0.1 }}
+        className="p-6 rounded-2xl flex flex-col items-center xs:w-[250px] w-full border hover:border-white transition-all duration-300"
+        style={{ backgroundColor: cardColor }}
+    >
+        <img
+            src={image}
+            alt={name}
+            className="rounded-full object-cover mb-4"
+            style={{ width: "150px", height: "150px" }}
+            onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = "/default-avatar.png";
+            }}
+        />
+        <h3 className="text-white font-bold text-[18px] text-center">@ {name}</h3>
+        <p className="text-secondary text-[14px] text-center">{designation}</p>
+        <button
+            onClick={() => window.open(linkedin, "_blank")}
+            className="mt-3 bg-blue-500 p-2 rounded-full hover:bg-blue-600 transition-colors"
+        >
+            <img src={linkedinurl} alt="LinkedIn" className="w-5 h-5" />
+        </button>
+    </motion.div>
 );
 
-
 const Team = () => {
-  const [currentTeam, setCurrentTeam] = React.useState(team2024);
-  const [setTeamTitle] = React.useState('Year 24-25');
+    const teamData = [
+        { team: oldteammembers, title: "Year 22-23" },
+        { team: newteammembers, title: "Year 23-24" },
+        { team: team2024, title: "Year 24-25" },
+    ];
 
-  const handleSelect = (event) => {
-    switch (event.target.value) {
-      case '22':
-        setCurrentTeam([...oldteammembers]);
-        setTeamTitle('Year 22-23');
-        break;
-      case '23':
-        setCurrentTeam([...newteammembers]);
-        setTeamTitle('Year 23-24');
-        break;
-      case '24':
-        setCurrentTeam([...team2024]);
-        setTeamTitle('Year 24-25');
-        break;
-      /*default:
-        setCurrentTeam(oldteammembers);
-        setTeamTitle('Year 22-23');*/
-        
-    }
-  };
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [direction, setDirection] = useState(1);
+    const [isHovering, setIsHovering] = useState(false);
+    const [isAnimating, setIsAnimating] = useState(false);
 
-  return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
-      <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
-        <motion.div variants={textVariant()} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <p className={styles.sectionSubText}>Our Team</p>
-          <br />
+    const { team: currentTeam, title: currentTitle } = teamData[currentIndex];
 
-          <select onChange={handleSelect} className="p-2 rounded-md bg-gray-800 text-white">
-            <option value="24">Year 24-25</option>
-            <option value="23">Year 23-24</option>
-            <option value="22">Year 22-23</option>
-            
-          </select>
-        </motion.div>
-        <br /><br /><br /><br /><br /><br /><br /><br />
-        <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}>
-          {currentTeam.map((member, index) => (
-            <TeamMemberCard key={member.name} index={index} {...member} />
-          ))}
+    const variants = {
+        enter: (dir) => ({
+            opacity: 0,
+            x: dir > 0 ? 100 : -100,
+        }),
+        center: {
+            opacity: 1,
+            x: 0,
+        },
+        exit: (dir) => ({
+            opacity: 0,
+            x: dir > 0 ? -100 : 100,
+        }),
+    };
+
+    // auto-rotate
+    useEffect(() => {
+        if (!isHovering && !isAnimating) {
+            const t = setTimeout(() => {
+                setDirection(1);
+                setCurrentIndex((p) => (p + 1) % teamData.length);
+            }, 5000);
+            return () => clearTimeout(t);
+        }
+    }, [currentIndex, isHovering, isAnimating, teamData.length]);
+
+    const goNext = () => {
+        if (isAnimating) return;
+        setDirection(1);
+        setCurrentIndex((p) => (p + 1) % teamData.length);
+    };
+    const goPrev = () => {
+        if (isAnimating) return;
+        setDirection(-1);
+        setCurrentIndex((p) => (p - 1 + teamData.length) % teamData.length);
+    };
+    const goToSlide = (i) => {
+        if (isAnimating || i === currentIndex) return;
+        setDirection(i > currentIndex ? 1 : -1);
+        setCurrentIndex(i);
+    };
+
+    return (
+        <div className="mt-10 bg-black-100 rounded-[20px] p-6">
+            <AnimatePresence mode="wait" initial={false} custom={direction}>
+                <motion.div
+                    key={currentIndex}
+                    custom={direction}
+                    variants={variants}
+                    initial="enter"
+                    animate="center"
+                    exit="exit"
+                    transition={{ duration: 0.5 }}
+                    onAnimationStart={() => setIsAnimating(true)}
+                    onAnimationComplete={() => setIsAnimating(false)}
+                    onMouseEnter={() => setIsHovering(true)}
+                    onMouseLeave={() => setIsHovering(false)}
+                >
+                    {/* Title */}
+                    <div className="flex flex-col items-center mb-6">
+                        <motion.p
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 0.5 }}
+                            className={styles.sectionSubText + " text-center"}
+                        >
+                            Our Team
+                        </motion.p>
+                        <motion.h2
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}
+                            className="text-white text-[24px] font-bold mt-2 text-center"
+                        >
+                            {currentTitle}
+                        </motion.h2>
+                    </div>
+
+                    {/* Cards */}
+                    <div className="flex flex-wrap justify-center gap-8">
+                        {currentTeam.map((member, idx) => (
+                            <TeamMemberCard
+                                key={idx}
+                                {...member}
+                                index={idx}
+                                cardColor="#151030"
+                            />
+                        ))}
+                    </div>
+                </motion.div>
+            </AnimatePresence>
+
+            {/* Controls */}
+            <div className="flex items-center justify-center gap-4 mt-8">
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    onClick={goPrev}
+                    disabled={isAnimating}
+                    className={`text-white text-[30px] bg-gray-700 hover:bg-gray-600 rounded-full w-10 h-10 flex items-center justify-center transition-colors
+                        ${isAnimating ? "opacity-50 pointer-events-none" : ""}`}
+                >
+                    &lt;
+                </motion.button>
+
+                <div className="flex gap-2">
+                    {teamData.map((_, idx) => (
+                        <motion.div
+                            key={idx}
+                            whileHover={{ scale: 1.2 }}
+                            onClick={() => goToSlide(idx)}
+                            className={`w-3 h-3 rounded-full cursor-pointer ${
+                                idx === currentIndex ? "bg-white" : "bg-gray-500"
+                            } ${isAnimating ? "pointer-events-none" : ""}`}
+                        />
+                    ))}
+                </div>
+
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    onClick={goNext}
+                    disabled={isAnimating}
+                    className={`text-white text-[30px] bg-gray-700 hover:bg-gray-600 rounded-full w-10 h-10 flex items-center justify-center transition-colors
+                        ${isAnimating ? "opacity-50 pointer-events-none" : ""}`}
+                >
+                    &gt;
+                </motion.button>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
-export default Team;
+export default SectionWrapper(Team, "");
