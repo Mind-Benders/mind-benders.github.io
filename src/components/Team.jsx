@@ -4,7 +4,7 @@ import linkedinurl from "/linkedin.png";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { team2024, newteammembers, oldteammembers } from "../constants";
+import { team2024, team2025, newteammembers, oldteammembers } from "../constants";
 
 const TeamMemberCard = ({ name, designation, image, linkedin, cardColor, index }) => (
     <motion.div
@@ -40,6 +40,7 @@ const Team = () => {
         { team: oldteammembers, title: "Year 22-23" },
         { team: newteammembers, title: "Year 23-24" },
         { team: team2024, title: "Year 24-25" },
+        { team: team2025, title: "Year 25-26" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);

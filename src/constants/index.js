@@ -143,6 +143,45 @@ const team2024 = [
   },
 ];
 
+const team2025 = [
+  {
+    name: "Shubham Bari",
+    designation: "President",
+    image: "team2025-president.png",
+    linkedin: "https://www.linkedin.com/in/shubham-bari-10x10x10/",
+  },
+  {
+    name: "Tripti Shetty",
+    designation: "Vice President",
+    image: "team2025-vp.png",
+    linkedin: "https://www.linkedin.com/in/tripti-shetty-a942a327b/",
+  },
+  {
+    name: "Jatin Gupta",
+    designation: "Technical Head",
+    image: "team2025-tech.png",
+    linkedin: "https://www.linkedin.com/in/jatin-gupta-3453b8290/",
+  },
+  {
+    name: "Riddhi Ghosalkar",
+    designation: "Secretary",
+    image: "team2025-secretary.png",
+    linkedin: "https://www.linkedin.com/in/riddhighosalkar25/",
+  },
+  {
+    name: "Gangotrinath Tripathi",
+    designation: "Head of Research And Development",
+    image: "team2025-rnd.png",
+    linkedin: "https://www.linkedin.com/in/gangotrinath-tripathi-864425211/",
+  },
+  {
+    name: "Ishita Yadav",
+    designation: "Outreach Head",
+    image: "team2025-outreach.png",
+    linkedin: "https://www.linkedin.com/in/ishita-yadav-22ish/",
+  },
+];
+
 const newteammembers = [
   {
     name: "Sharukhali Syed",
@@ -650,4 +689,4 @@ const events = [
   },
 ];
 
-export { services, team2024, newteammembers,oldteammembers, events };
+export { services, team2024, team2025, newteammembers, oldteammembers, events };
