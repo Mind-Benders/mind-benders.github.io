@@ -17,11 +17,11 @@ const TeamMemberCard = ({ name, designation, image, linkedin, cardColor, index }
         <img
             src={image}
             alt={name}
-            className="rounded-full object-cover mb-4"
+            className="rounded-full object-cover object-top mb-4"
             style={{ width: "150px", height: "150px" }}
             onError={(e) => {
                 e.target.onerror = null;
-                e.target.src = "/default-avatar.png";
+                e.target.src = "/default-avatar.svg";
             }}
         />
         <h3 className="text-white font-bold text-[18px] text-center">@ {name}</h3>
