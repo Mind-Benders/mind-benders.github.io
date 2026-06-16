@@ -143,6 +143,45 @@ const team2024 = [
   },
 ];
 
+const team2025 = [
+  {
+    name: "Shubham Bari",
+    designation: "President",
+    image: "team2025-president.jpeg",
+    linkedin: "https://www.linkedin.com/in/shubham-bari-10x10x10/",
+  },
+  {
+    name: "Tripti Shetty",
+    designation: "Vice President",
+    image: "team2025-vp.jpeg",
+    linkedin: "https://www.linkedin.com/in/tripti-shetty-a942a327b/",
+  },
+  {
+    name: "Jatin Gupta",
+    designation: "Technical Head",
+    image: "team2025-tech.jpeg",
+    linkedin: "https://www.linkedin.com/in/jatin-gupta-3453b8290/",
+  },
+  {
+    name: "Riddhi Ghosalkar",
+    designation: "Secretary",
+    image: "team2025-secretary.jpeg",
+    linkedin: "https://www.linkedin.com/in/riddhighosalkar25/",
+  },
+  {
+    name: "Gangotrinath Tripathi",
+    designation: "Head of Research And Development",
+    image: "team2025-rnd.jpeg",
+    linkedin: "https://www.linkedin.com/in/gangotrinath-tripathi-864425211/",
+  },
+  {
+    name: "Ishita Yadav",
+    designation: "Outreach Head",
+    image: "team2025-outreach.jpeg",
+    linkedin: "https://www.linkedin.com/in/ishita-yadav-22ish/",
+  },
+];
+
 const newteammembers = [
   {
     name: "Sharukhali Syed",
@@ -648,6 +687,63 @@ const events = [
     ],
     image: "mbc17.jpg"
   },
+  {
+    name: "From Code to Cloud",
+    description: "This hands-on workshop focused on building and deploying generative AI applications using LangChain, LangSmith, and LangGraph. Speaker Alok Shukla guided participants through industry workflows, from development to production deployment.",
+    tags: [
+      {
+        name: "langchain",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "generative-ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "llmops",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "langchain_event.jpeg"
+  },
+  {
+    name: "NEXUS Ideathon",
+    description: "Nexus was a multimodal AI Ideathon challenging students to innovate renewable energy infrastructure. Teams pitched AI-driven designs focusing on enhancing efficiency, sustainability, and automated management of clean energy systems.",
+    tags: [
+      {
+        name: "ideathon",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "multimodal-ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cleanenergy",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "nexus_event.jpeg"
+  },
+  {
+    name: "AI Workforce Seminar",
+    description: "Led by industry expert Dishant Gandhi, this seminar bridged the academic-to-industry gap. Attendees gained insights into core skills, industry expectations, and practical roadmaps for launching careers in conversational AI and LLM operations.",
+    tags: [
+      {
+        name: "workforce",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "conversational-ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "career",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "ai_event.jpeg"
+  },
 ];
 
-export { services, team2024, newteammembers,oldteammembers, events };
+export { services, team2024, team2025, newteammembers, oldteammembers, events };
