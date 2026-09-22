@@ -182,6 +182,45 @@ const team2025 = [
   },
 ];
 
+const team2026 = [
+  {
+    name: "Jagdish Wagh",
+    designation: "President",
+    image: "team26-president.jpeg",
+    linkedin: "https://www.linkedin.com/in/jagdish01",
+  },
+  {
+    name: "Gangotrinath Tripathi",
+    designation: "Vice President",
+    image: "team26-vp.jpeg",
+    linkedin: "https://www.linkedin.com/in/gangotrinath-tripathi-864425211",
+  },
+  {
+    name: "Ramkumar Chaurasiya",
+    designation: "Secretary",
+    image: "team26-secretary.JPG",
+    linkedin: "https://www.linkedin.com/in/ramkumar-chaurasiya-7544ab30b",
+  },
+  {
+    name: "Prashant Yadav",
+    designation: "Technical Head",
+    image: "team26-tech.jpeg",
+    linkedin: "https://www.linkedin.com/in/prashant-sk-yadav",
+  },
+  {
+    name: "Pari Bhatnagar",
+    designation: "Head of Research & Development",
+    image: "team26-rnd.jpeg",
+    linkedin: "https://www.linkedin.com/in/pari-bhatnagar",
+  },
+  {
+    name: "Deeksha Shettigar",
+    designation: "Outreach Head",
+    image: "team26-outreach.jpeg",
+    linkedin: "https://www.linkedin.com/in/deeksha-shettigar-83b288384",
+  },
+];
+
 const newteammembers = [
   {
     name: "Sharukhali Syed",
@@ -746,4 +785,4 @@ const events = [
   },
 ];
 
-export { services, team2024, team2025, newteammembers, oldteammembers, events };
+export { services, team2024, team2025, team2026, newteammembers, oldteammembers, events };

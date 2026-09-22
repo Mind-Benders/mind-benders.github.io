@@ -4,14 +4,14 @@ import linkedinurl from "/linkedin.png";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { team2024, team2025, newteammembers, oldteammembers } from "../constants";
+import { team2024, team2025, team2026, newteammembers, oldteammembers } from "../constants";
 
 const TeamMemberCard = ({ name, designation, image, linkedin, cardColor, index }) => (
     <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: index * 0.1 }}
-        className="p-6 rounded-2xl flex flex-col items-center xs:w-[250px] w-full border hover:border-white transition-all duration-300"
+        className="p-6 rounded-2xl flex flex-col items-center w-full max-w-[300px] border hover:border-white transition-all duration-300"
         style={{ backgroundColor: cardColor }}
     >
         <img
@@ -36,11 +36,13 @@ const TeamMemberCard = ({ name, designation, image, linkedin, cardColor, index }
 );
 
 const Team = () => {
+
     const teamData = [
-        { team: oldteammembers, title: "Year 22-23" },
-        { team: newteammembers, title: "Year 23-24" },
-        { team: team2024, title: "Year 24-25" },
-        { team: team2025, title: "Year 25-26" },
+    { team: team2026, title: "Year 26-27" },
+    { team: team2025, title: "Year 25-26" },
+    { team: team2024, title: "Year 24-25" },
+    { team: newteammembers, title: "Year 23-24" },
+    { team: oldteammembers, title: "Year 22-23" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -129,7 +131,7 @@ const Team = () => {
                     </div>
 
                     {/* Cards */}
-                    <div className="flex flex-wrap justify-center gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
                         {currentTeam.map((member, idx) => (
                             <TeamMemberCard
                                 key={idx}
